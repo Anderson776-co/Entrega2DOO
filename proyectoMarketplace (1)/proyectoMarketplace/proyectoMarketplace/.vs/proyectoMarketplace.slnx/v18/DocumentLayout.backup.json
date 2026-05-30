@@ -1,0 +1,919 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\postgresqlconnection\\controllers\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|solutionrelative:postgresqlconnection\\controllers\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\postgresqlconnection\\controllers\\publications\\publicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|solutionrelative:postgresqlconnection\\controllers\\publications\\publicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\ports\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\ports\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\services\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\services\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\users\\usecase\\createuserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\users\\usecase\\createuserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\postgresqlconnection\\controllers\\users\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|solutionrelative:postgresqlconnection\\controllers\\users\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\postgresqlconnection\\controllers\\orders\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|solutionrelative:postgresqlconnection\\controllers\\orders\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\infraestructure\\repositories\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|solutionrelative:infraestructure\\repositories\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\infraestructure\\repositories\\users\\mailingaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|solutionrelative:infraestructure\\repositories\\users\\mailingaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\infraestructure\\repositories\\users\\invitationcoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|solutionrelative:infraestructure\\repositories\\users\\invitationcoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\infraestructure\\contexts\\publicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|solutionrelative:infraestructure\\contexts\\publicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\postgresqlconnection\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|solutionrelative:postgresqlconnection\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\publications\\usecase\\createpublicationusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\publications\\usecase\\createpublicationusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\ports\\ipublicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\ports\\ipublicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\services\\publications\\publicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\services\\publications\\publicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\publications\\dto\u0027s\\publicationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\publications\\dto\u0027s\\publicationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\postgresqlconnection\\controllers\\users\\mailingaddresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|solutionrelative:postgresqlconnection\\controllers\\users\\mailingaddresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\postgresqlconnection\\controllers\\users\\businesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|solutionrelative:postgresqlconnection\\controllers\\users\\businesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\infraestructure\\repositories\\publications\\publicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|solutionrelative:infraestructure\\repositories\\publications\\publicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\publications\\usecase\\getpublicationusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\publications\\usecase\\getpublicationusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\services\\orders\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\services\\orders\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\publications\\dto\u0027s\\publicationresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\publications\\dto\u0027s\\publicationresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\postgresqlconnection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|solutionrelative:postgresqlconnection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\publications\\usecase\\deletepublicationbyidusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\publications\\usecase\\deletepublicationbyidusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\publications\\usecase\\updatepublicationbyidusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\publications\\usecase\\updatepublicationbyidusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\postgresqlconnection\\controllers\\users\\invitationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|solutionrelative:postgresqlconnection\\controllers\\users\\invitationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\infraestructure\\repositories\\orders\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|solutionrelative:infraestructure\\repositories\\orders\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\orders\\usecase\\updatestateorderusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\orders\\usecase\\updatestateorderusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\ports\\order\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\ports\\order\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\infraestructure\\contexts\\orderdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|solutionrelative:infraestructure\\contexts\\orderdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\orders\\usecase\\deleteorderbyidusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\orders\\usecase\\deleteorderbyidusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\orders\\dto\u0027s\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\orders\\dto\u0027s\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\orders\\usecase\\getorderusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\orders\\usecase\\getorderusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\infraestructure\\repositories\\users\\businessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|solutionrelative:infraestructure\\repositories\\users\\businessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\entities\\orders\\orderentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\orders\\orderentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\ports\\imailingaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\ports\\imailingaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\entities\\publications\\publicationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\publications\\publicationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\models\\publicationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\models\\publicationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\orders\\usecase\\registerorderusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\orders\\usecase\\registerorderusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\services\\users\\mailingaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\services\\users\\mailingaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\users\\usecase\\getmailingaddressusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\users\\usecase\\getmailingaddressusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\entities\\publications\\categoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\publications\\categoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\entities\\publications\\productentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\publications\\productentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\services\\users\\businessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\services\\users\\businessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\users\\usecase\\createbusinessusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\users\\usecase\\createbusinessusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\infraestructure\\contexts\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|solutionrelative:infraestructure\\contexts\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\users\\usecase\\createmailingaddressusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\users\\usecase\\createmailingaddressusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\ports\\ibusinessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\ports\\ibusinessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\services\\users\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\services\\users\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\services\\users\\invitationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\services\\users\\invitationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\users\\usecase\\authusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\users\\usecase\\authusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\users\\dto\u0027s\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\users\\dto\u0027s\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\downloads\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\entities\\business\\businessentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\business\\businessentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PublicationController.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Publications\\PublicationController.cs",
+              "RelativeDocumentMoniker": "PostgreSQLConnection\\Controllers\\Publications\\PublicationController.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Publications\\PublicationController.cs",
+              "RelativeToolTip": "PostgreSQLConnection\\Controllers\\Publications\\PublicationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T19:19:49.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\AuthController.cs",
+              "RelativeDocumentMoniker": "PostgreSQLConnection\\Controllers\\Users\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\AuthController.cs",
+              "RelativeToolTip": "PostgreSQLConnection\\Controllers\\Users\\AuthController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T19:19:30.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\UserController.cs",
+              "RelativeDocumentMoniker": "PostgreSQLConnection\\Controllers\\Users\\UserController.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\UserController.cs",
+              "RelativeToolTip": "PostgreSQLConnection\\Controllers\\Users\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T14:57:38.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateUserUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\CreateUserUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\Users\\UseCase\\CreateUserUseCase.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\CreateUserUseCase.cs",
+              "RelativeToolTip": "Application\\Users\\UseCase\\CreateUserUseCase.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAD4vyUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T15:43:00.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Users\\UserService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Users\\UserService.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Users\\UserService.cs",
+              "RelativeToolTip": "Domain\\Services\\Users\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T15:52:21.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Ports\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Ports\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Ports\\IUserRepository.cs",
+              "RelativeToolTip": "Domain\\Ports\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T15:56:39.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Orders\\OrderController.cs",
+              "RelativeDocumentMoniker": "PostgreSQLConnection\\Controllers\\Orders\\OrderController.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Orders\\OrderController.cs",
+              "RelativeToolTip": "PostgreSQLConnection\\Controllers\\Orders\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T19:34:05.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Users\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repositories\\Users\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Users\\UserRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Repositories\\Users\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T15:40:25.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MailingAddressRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Users\\MailingAddressRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repositories\\Users\\MailingAddressRepository.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Users\\MailingAddressRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Repositories\\Users\\MailingAddressRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:49:56.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InvitationCodeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Users\\InvitationCodeRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repositories\\Users\\InvitationCodeRepository.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Users\\InvitationCodeRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Repositories\\Users\\InvitationCodeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T01:19:34.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\appsettings.json",
+              "RelativeDocumentMoniker": "PostgreSQLConnection\\appsettings.json",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\appsettings.json",
+              "RelativeToolTip": "PostgreSQLConnection\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-27T16:06:13.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PublicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Contexts\\PublicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Contexts\\PublicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Contexts\\PublicationDbContext.cs",
+              "RelativeToolTip": "Infraestructure\\Contexts\\PublicationDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T22:11:18.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreatePublicationUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Publications\\UseCase\\CreatePublicationUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\Publications\\UseCase\\CreatePublicationUseCase.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Publications\\UseCase\\CreatePublicationUseCase.cs",
+              "RelativeToolTip": "Application\\Publications\\UseCase\\CreatePublicationUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T21:38:39.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IPublicationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Ports\\IPublicationRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Ports\\IPublicationRepository.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Ports\\IPublicationRepository.cs",
+              "RelativeToolTip": "Domain\\Ports\\IPublicationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:59:24.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PublicationService.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Publications\\PublicationService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Publications\\PublicationService.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Publications\\PublicationService.cs",
+              "RelativeToolTip": "Domain\\Services\\Publications\\PublicationService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwB0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:58:59.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PublicationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Publications\\DTO\u0027s\\PublicationDTO.cs",
+              "RelativeDocumentMoniker": "Application\\Publications\\DTO\u0027s\\PublicationDTO.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Publications\\DTO\u0027s\\PublicationDTO.cs",
+              "RelativeToolTip": "Application\\Publications\\DTO\u0027s\\PublicationDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAASwBoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T21:39:04.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MailingAddressController.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\MailingAddressController.cs",
+              "RelativeDocumentMoniker": "PostgreSQLConnection\\Controllers\\Users\\MailingAddressController.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\MailingAddressController.cs",
+              "RelativeToolTip": "PostgreSQLConnection\\Controllers\\Users\\MailingAddressController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:40:01.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BusinessController.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\BusinessController.cs",
+              "RelativeDocumentMoniker": "PostgreSQLConnection\\Controllers\\Users\\BusinessController.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\BusinessController.cs",
+              "RelativeToolTip": "PostgreSQLConnection\\Controllers\\Users\\BusinessController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T19:19:31.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GetPublicationUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Publications\\UseCase\\GetPublicationUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\Publications\\UseCase\\GetPublicationUseCase.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Publications\\UseCase\\GetPublicationUseCase.cs",
+              "RelativeToolTip": "Application\\Publications\\UseCase\\GetPublicationUseCase.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAtwBYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:58:22.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Orders\\OrderService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Orders\\OrderService.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Orders\\OrderService.cs",
+              "RelativeToolTip": "Domain\\Services\\Orders\\OrderService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAkwDkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T01:07:55.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PublicationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Publications\\PublicationRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repositories\\Publications\\PublicationRepository.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Publications\\PublicationRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Repositories\\Publications\\PublicationRepository.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAswC4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T21:00:35.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PublicationResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Publications\\DTO\u0027s\\PublicationResponseDTO.cs",
+              "RelativeDocumentMoniker": "Application\\Publications\\DTO\u0027s\\PublicationResponseDTO.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Publications\\DTO\u0027s\\PublicationResponseDTO.cs",
+              "RelativeToolTip": "Application\\Publications\\DTO\u0027s\\PublicationResponseDTO.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwB8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T21:50:28.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Program.cs",
+              "RelativeDocumentMoniker": "PostgreSQLConnection\\Program.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Program.cs",
+              "RelativeToolTip": "PostgreSQLConnection\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T16:53:04.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UpdatePublicationByIdUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Publications\\UseCase\\UpdatePublicationByIdUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\Publications\\UseCase\\UpdatePublicationByIdUseCase.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Publications\\UseCase\\UpdatePublicationByIdUseCase.cs",
+              "RelativeToolTip": "Application\\Publications\\UseCase\\UpdatePublicationByIdUseCase.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAIAwwCUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T21:46:18.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DeletePublicationByIdUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Publications\\UseCase\\DeletePublicationByIdUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\Publications\\UseCase\\DeletePublicationByIdUseCase.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Publications\\UseCase\\DeletePublicationByIdUseCase.cs",
+              "RelativeToolTip": "Application\\Publications\\UseCase\\DeletePublicationByIdUseCase.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIAwwBQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T21:56:51.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "InvitationController.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\InvitationController.cs",
+              "RelativeDocumentMoniker": "PostgreSQLConnection\\Controllers\\Users\\InvitationController.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\InvitationController.cs",
+              "RelativeToolTip": "PostgreSQLConnection\\Controllers\\Users\\InvitationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T19:19:34.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Orders\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repositories\\Orders\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Orders\\OrderRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Repositories\\Orders\\OrderRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAB4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T02:05:34.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateStateOrderUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Orders\\UseCase\\UpdateStateOrderUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\Orders\\UseCase\\UpdateStateOrderUseCase.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Orders\\UseCase\\UpdateStateOrderUseCase.cs",
+              "RelativeToolTip": "Application\\Orders\\UseCase\\UpdateStateOrderUseCase.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAIA8wBwAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T02:25:57.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Ports\\Order\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Ports\\Order\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Ports\\Order\\IOrderRepository.cs",
+              "RelativeToolTip": "Domain\\Ports\\Order\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T02:02:45.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OrderDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Contexts\\OrderDbContext.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Contexts\\OrderDbContext.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Contexts\\OrderDbContext.cs",
+              "RelativeToolTip": "Infraestructure\\Contexts\\OrderDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T22:11:37.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DeleteOrderByIdUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Orders\\UseCase\\DeleteOrderByIdUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\Orders\\UseCase\\DeleteOrderByIdUseCase.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Orders\\UseCase\\DeleteOrderByIdUseCase.cs",
+              "RelativeToolTip": "Application\\Orders\\UseCase\\DeleteOrderByIdUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T02:42:27.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GetOrderUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Orders\\UseCase\\GetOrderUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\Orders\\UseCase\\GetOrderUseCase.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Orders\\UseCase\\GetOrderUseCase.cs",
+              "RelativeToolTip": "Application\\Orders\\UseCase\\GetOrderUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T02:07:21.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BusinessRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Users\\BusinessRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repositories\\Users\\BusinessRepository.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Users\\BusinessRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Repositories\\Users\\BusinessRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:30:55.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Models\\Status.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Status.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Models\\Status.cs",
+              "RelativeToolTip": "Domain\\Models\\Status.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T01:35:42.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "OrderDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Orders\\DTO\u0027s\\OrderDTO.cs",
+              "RelativeDocumentMoniker": "Application\\Orders\\DTO\u0027s\\OrderDTO.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Orders\\DTO\u0027s\\OrderDTO.cs",
+              "RelativeToolTip": "Application\\Orders\\DTO\u0027s\\OrderDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAASwBMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T02:07:45.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "OrderEntity.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Entities\\Orders\\OrderEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Orders\\OrderEntity.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Entities\\Orders\\OrderEntity.cs",
+              "RelativeToolTip": "Domain\\Entities\\Orders\\OrderEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T00:55:16.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IMailingAddressRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Ports\\IMailingAddressRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Ports\\IMailingAddressRepository.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Ports\\IMailingAddressRepository.cs",
+              "RelativeToolTip": "Domain\\Ports\\IMailingAddressRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:47:57.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PublicationEntity.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Entities\\Publications\\PublicationEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Publications\\PublicationEntity.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Entities\\Publications\\PublicationEntity.cs",
+              "RelativeToolTip": "Domain\\Entities\\Publications\\PublicationEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T22:15:12.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PublicationStatus.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Models\\PublicationStatus.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\PublicationStatus.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Models\\PublicationStatus.cs",
+              "RelativeToolTip": "Domain\\Models\\PublicationStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T21:55:11.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RegisterOrderUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Orders\\UseCase\\RegisterOrderUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\Orders\\UseCase\\RegisterOrderUseCase.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Orders\\UseCase\\RegisterOrderUseCase.cs",
+              "RelativeToolTip": "Application\\Orders\\UseCase\\RegisterOrderUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T01:06:52.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "MailingAddressService.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Users\\MailingAddressService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Users\\MailingAddressService.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Users\\MailingAddressService.cs",
+              "RelativeToolTip": "Domain\\Services\\Users\\MailingAddressService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:46:21.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GetMailingAddressUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\GetMailingAddressUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\Users\\UseCase\\GetMailingAddressUseCase.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\GetMailingAddressUseCase.cs",
+              "RelativeToolTip": "Application\\Users\\UseCase\\GetMailingAddressUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:54:02.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ProductEntity.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Entities\\Publications\\ProductEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Publications\\ProductEntity.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Entities\\Publications\\ProductEntity.cs",
+              "RelativeToolTip": "Domain\\Entities\\Publications\\ProductEntity.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAhwA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T22:37:01.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CategoryEntity.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Entities\\Publications\\CategoryEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Publications\\CategoryEntity.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Entities\\Publications\\CategoryEntity.cs",
+              "RelativeToolTip": "Domain\\Entities\\Publications\\CategoryEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T22:27:11.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "BusinessService.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Users\\BusinessService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Users\\BusinessService.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Users\\BusinessService.cs",
+              "RelativeToolTip": "Domain\\Services\\Users\\BusinessService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T16:08:06.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CreateBusinessUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\CreateBusinessUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\Users\\UseCase\\CreateBusinessUseCase.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\CreateBusinessUseCase.cs",
+              "RelativeToolTip": "Application\\Users\\UseCase\\CreateBusinessUseCase.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwCEAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:25:21.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Contexts\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Contexts\\UserDbContext.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Contexts\\UserDbContext.cs",
+              "RelativeToolTip": "Infraestructure\\Contexts\\UserDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T16:08:16.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CreateMailingAddressUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\CreateMailingAddressUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\Users\\UseCase\\CreateMailingAddressUseCase.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\CreateMailingAddressUseCase.cs",
+              "RelativeToolTip": "Application\\Users\\UseCase\\CreateMailingAddressUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:46:03.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "InvitationService.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Users\\InvitationService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Users\\InvitationService.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Users\\InvitationService.cs",
+              "RelativeToolTip": "Domain\\Services\\Users\\InvitationService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:32:36.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IBusinessRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Ports\\IBusinessRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Ports\\IBusinessRepository.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Ports\\IBusinessRepository.cs",
+              "RelativeToolTip": "Domain\\Ports\\IBusinessRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:25:49.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Users\\AuthService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Users\\AuthService.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Users\\AuthService.cs",
+              "RelativeToolTip": "Domain\\Services\\Users\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:07:54.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AuthUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\AuthUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\Users\\UseCase\\AuthUseCase.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\AuthUseCase.cs",
+              "RelativeToolTip": "Application\\Users\\UseCase\\AuthUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:11:11.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\DTO\u0027s\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Application\\Users\\DTO\u0027s\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\DTO\u0027s\\UserDTO.cs",
+              "RelativeToolTip": "Application\\Users\\DTO\u0027s\\UserDTO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T14:57:19.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "BusinessEntity.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Entities\\Business\\BusinessEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Business\\BusinessEntity.cs",
+              "ToolTip": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Entities\\Business\\BusinessEntity.cs",
+              "RelativeToolTip": "Domain\\Entities\\Business\\BusinessEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T14:47:17.794Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

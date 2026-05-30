@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Application/Application.csproj" Id="f4c3266a-2d5c-4274-875c-fc1b0739383e" />
+  <Project Path="Domain/Domain.csproj" Id="f831a575-cefb-4482-9696-ac265e8941bc" />
+  <Project Path="Infraestructure/Infrastructure.csproj" Id="38a43181-b5cd-4ac2-9d3b-a032e30590d9" />
+  <Project Path="PostgreSQLConnection/APIDazma.csproj" />
+</Solution>

@@ -1,0 +1,33 @@
+C:\Users\jeron\Downloads\proyectoMarketplace-merged\proyectoMarketplace\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\jeron\Downloads\proyectoMarketplace-merged\proyectoMarketplace\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\jeron\Downloads\proyectoMarketplace-merged\proyectoMarketplace\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\jeron\Downloads\proyectoMarketplace-merged\proyectoMarketplace\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeron\Downloads\proyectoMarketplace-merged\proyectoMarketplace\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\jeron\Downloads\proyectoMarketplace-merged\proyectoMarketplace\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\jeron\Downloads\proyectoMarketplace-merged\proyectoMarketplace\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\jeron\Downloads\proyectoMarketplace-merged\proyectoMarketplace\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\jeron\Downloads\proyectoMarketplace-merged\proyectoMarketplace\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\jeron\Downloads\proyectoMarketplace-merged\proyectoMarketplace\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\jeron\Downloads\proyectoMarketplace-merged\proyectoMarketplace\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\jeron\Downloads\DISEÑO ORIENTADO A OBJETOS\proyectoMarketplace\proyectoMarketplace\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeron\Downloads\DISEÑO ORIENTADO A OBJETOS\proyectoMarketplace\proyectoMarketplace\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\jeron\Downloads\DISEÑO ORIENTADO A OBJETOS\proyectoMarketplace\proyectoMarketplace\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\jeron\Downloads\DISEÑO ORIENTADO A OBJETOS\proyectoMarketplace\proyectoMarketplace\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\jeron\Downloads\DISEÑO ORIENTADO A OBJETOS\proyectoMarketplace\proyectoMarketplace\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\jeron\Downloads\DISEÑO ORIENTADO A OBJETOS\proyectoMarketplace\proyectoMarketplace\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\jeron\Downloads\DISEÑO ORIENTADO A OBJETOS\proyectoMarketplace\proyectoMarketplace\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\jeron\Downloads\DISEÑO ORIENTADO A OBJETOS\proyectoMarketplace\proyectoMarketplace\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\jeron\Downloads\DISEÑO ORIENTADO A OBJETOS\proyectoMarketplace\proyectoMarketplace\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\jeron\Downloads\DISEÑO ORIENTADO A OBJETOS\proyectoMarketplace\proyectoMarketplace\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\jeron\Downloads\DISEÑO ORIENTADO A OBJETOS\proyectoMarketplace\proyectoMarketplace\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\ander\Downloads\proyectoMarketplace (1)\proyectoMarketplace\proyectoMarketplace\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\ander\Downloads\proyectoMarketplace (1)\proyectoMarketplace\proyectoMarketplace\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\ander\Downloads\proyectoMarketplace (1)\proyectoMarketplace\proyectoMarketplace\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\ander\Downloads\proyectoMarketplace (1)\proyectoMarketplace\proyectoMarketplace\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ander\Downloads\proyectoMarketplace (1)\proyectoMarketplace\proyectoMarketplace\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\ander\Downloads\proyectoMarketplace (1)\proyectoMarketplace\proyectoMarketplace\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\ander\Downloads\proyectoMarketplace (1)\proyectoMarketplace\proyectoMarketplace\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\ander\Downloads\proyectoMarketplace (1)\proyectoMarketplace\proyectoMarketplace\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\ander\Downloads\proyectoMarketplace (1)\proyectoMarketplace\proyectoMarketplace\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\ander\Downloads\proyectoMarketplace (1)\proyectoMarketplace\proyectoMarketplace\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\ander\Downloads\proyectoMarketplace (1)\proyectoMarketplace\proyectoMarketplace\Domain\obj\Debug\net8.0\ref\Domain.dll

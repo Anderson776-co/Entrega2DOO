@@ -1,0 +1,1 @@
+public enum PublicationStatus { Active, Paused, Deleted }
