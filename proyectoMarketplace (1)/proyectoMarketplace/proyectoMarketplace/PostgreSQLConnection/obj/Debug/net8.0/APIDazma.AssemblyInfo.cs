@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIDazma")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0953cfe35bc13262fa70012c74fd8a8698c0910b")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIDazma")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIDazma")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

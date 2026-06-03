@@ -10,6 +10,7 @@ using Domain.Services.Orders;
 using Domain.Services.Publications;
 using Domain.Services.Users;
 using Infrastructure.Contexts;
+using Infrastructure.Middleware;
 using Infrastructure.Repositories.Orders;
 using Infrastructure.Repositories.Publications;
 using Infrastructure.Repositories.Users;
@@ -27,8 +28,13 @@ builder.Services.AddMemoryCache();
 // ===== Users =====
 builder.Services.AddScoped<AuthUseCase>();
 builder.Services.AddScoped<CreateUserUseCase>();
+builder.Services.AddScoped<UpdatePersonalInformationUseCase>();
+builder.Services.AddScoped<GetPersonalInfoUseCase>();
+builder.Services.AddScoped<deleteUserAccountUseCase>();
 builder.Services.AddScoped<CreateBusinessUseCase>();
 builder.Services.AddScoped<CreateMailingAddressUseCase>();
+builder.Services.AddScoped<UpdateMailingAddressUseCase>();
+builder.Services.AddScoped<DeleteMailingAddressUseCase>();
 builder.Services.AddScoped<GetMailingAddressUseCase>();
 builder.Services.AddScoped<GenerateInvitationCodeUseCase>();
 builder.Services.AddScoped<JoinBusinessUseCase>();
@@ -45,6 +51,7 @@ builder.Services.AddScoped<IMailingAddressRepository, MailingAddressRepository>(
 builder.Services.AddScoped<IInvitationCodeRepository, InvitationCodeRepository>();
 builder.Services.AddScoped<IjwtService, jwtService>();
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<IRevokedTokenRepository, RevokedTokenRepository>();
 
 // ===== Publications =====
 builder.Services.AddScoped<CreatePublicationUseCase>();
@@ -156,6 +163,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseExceptionHandler();
 app.UseHttpsRedirection();
+
+app.UseMiddleware<TokenRevocationMiddleware>();
+
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();

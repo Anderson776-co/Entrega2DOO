@@ -1,6 +1,8 @@
 using Application.Users.Interfaces;
+using Domain.Exceptions;
 using Domain.Services.Users;
-using System.ComponentModel.DataAnnotations;
+using System.IdentityModel.Tokens.Jwt;
+
 namespace Application.Users.UseCase
 {
     public class AuthUseCase
@@ -20,7 +22,15 @@ namespace Application.Users.UseCase
                 throw new ValidationException("El identificador debe ser un correo electrónico o un nombre de usuario válido.");
 
             var user = await _authService.Login(identificador, password);
-            return _jwtService.GenerateToken(user.Username, user.Role.Name, user.Id);
+            return _jwtService.GenerateToken(user.Email, user.Role.Name, user.Id);
+        }
+
+        public async Task Logout(string token)
+        {
+            var handler = new JwtSecurityTokenHandler(); ;
+            var jwtToken = handler.ReadJwtToken(token);
+
+            await _authService.Logout(jwtToken.Id, jwtToken.ValidTo);
         }
     }
 }

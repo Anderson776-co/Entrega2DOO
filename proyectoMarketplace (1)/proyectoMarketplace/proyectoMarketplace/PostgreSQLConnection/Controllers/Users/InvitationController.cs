@@ -20,10 +20,10 @@ namespace APIDazma.Controllers.Users
         }
 
         [Authorize]
-        [HttpPost("generate/{nit}/{roleId}")]
-        public IActionResult GenerateCode(string nit, int roleId)
+        [HttpPost("generate/{idEmpresa}/{roleId}")]
+        public IActionResult GenerateCode(int idEmpresa, int roleId)
         {
-           var code = _invitationUseCase.GenerateCode(nit, roleId);
+           var code = _invitationUseCase.GenerateCode(idEmpresa, roleId);
            return Ok(new { code });
         }
 

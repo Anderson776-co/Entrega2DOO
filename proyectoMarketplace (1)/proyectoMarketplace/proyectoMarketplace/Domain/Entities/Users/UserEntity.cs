@@ -11,12 +11,12 @@ namespace Domain.Entities.Users
         public RegisterType RegisterType { get; set; }
         public string Email { get; set; } = "";
         public string Phone { get; set; } = "";
-        public string Username { get; set; } = "";
         public string Password { get; set; } = "";
         public int RoleId { get; set; }
         public RoleEntity Role { get; set; } = null!;
         public int? BusinessId { get; set; }
         public BusinessEntity? Business { get; set; } = null;
+        public bool IsActive { get; set; }
         public ICollection<MailingAddressEntity> MailingAddresses { get; set; } = new List<MailingAddressEntity>();
     }
 }

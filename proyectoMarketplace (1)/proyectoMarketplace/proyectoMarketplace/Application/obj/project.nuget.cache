@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "Ek4yjRX2uvM=",
+  "dgSpecHash": "ku4ptTgapi0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ander\\Downloads\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ander\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\ander\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\ander\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.18.0\\microsoft.identitymodel.abstractions.8.18.0.nupkg.sha512",
+    "C:\\Users\\ander\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.18.0\\microsoft.identitymodel.jsonwebtokens.8.18.0.nupkg.sha512",
+    "C:\\Users\\ander\\.nuget\\packages\\microsoft.identitymodel.logging\\8.18.0\\microsoft.identitymodel.logging.8.18.0.nupkg.sha512",
+    "C:\\Users\\ander\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.18.0\\microsoft.identitymodel.tokens.8.18.0.nupkg.sha512",
+    "C:\\Users\\ander\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.18.0\\system.identitymodel.tokens.jwt.8.18.0.nupkg.sha512"
+  ],
   "logs": []
 }

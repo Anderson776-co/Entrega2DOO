@@ -12,7 +12,7 @@ namespace Domain.Ports
     {
         Task<BusinessEntity> CreateBusiness(BusinessEntity business);
         Task<bool> ExistsById(int id);
-        Task<BusinessEntity?> GetBusinessByNit(string nit);
+        Task<BusinessEntity?> GetBusinessById(int id);
         Task<bool> ExistsByNit(string nit);
 
     }

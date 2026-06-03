@@ -13,12 +13,12 @@ namespace Application.Users.DTOs
 
         [Required(ErrorMessage = "El campo del teléfono es obligatorio")]
         public required string Phone { get; set; }
-        [Required(ErrorMessage = "El campo del nombre de usuario es obligatorio")]
-        public required string Username { get; set; }
         [Required(ErrorMessage = "El campo del correo electrónico es obligatorio")]
         public required string Email { get; set; }
         [Required(ErrorMessage = "El campo de la contraseña es obligatorio")]
         public required string Password { get; set; }
+        [Required(ErrorMessage = "El campo de confirmación de contraseña es obligatorio")]
+        public required string ConfirmPassword { get; set; }
 
         public static UserEntity FromDTOtoEntity(UserDTO userDTO) { 
             return new UserEntity
@@ -26,7 +26,6 @@ namespace Application.Users.DTOs
                 Name = string.Join(" ", userDTO.Name.Trim().Split(' ', StringSplitOptions.RemoveEmptyEntries)),
                 LastName = string.Join(" ", userDTO.LastName.Trim().Split(' ', StringSplitOptions.RemoveEmptyEntries)),
                 Phone = userDTO.Phone.Replace(" ", ""),
-                Username = userDTO.Username.Trim(),
                 Email = userDTO.Email.Trim(),
                 Password = userDTO.Password,
                 RegisterType = RegisterType.Personal,
@@ -41,9 +40,9 @@ namespace Application.Users.DTOs
                 Name = user.Name,
                 LastName = user.LastName,
                 Phone = user.Phone,
-                Username = user.Username,
                 Email = user.Email,
-                Password = user.Password
+                Password = user.Password,
+                ConfirmPassword = user.Password
             };
         }
     }

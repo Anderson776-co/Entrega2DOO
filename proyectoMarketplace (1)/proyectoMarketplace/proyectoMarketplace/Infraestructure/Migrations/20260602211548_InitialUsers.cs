@@ -15,6 +15,21 @@ namespace Infrastructure.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
+                name: "RevokedTokens",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Jti = table.Column<string>(type: "text", nullable: false),
+                    ExpiresAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    RevokedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_RevokedTokens", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Roles",
                 columns: table => new
                 {
@@ -85,10 +100,10 @@ namespace Infrastructure.Migrations
                     RegisterType = table.Column<int>(type: "integer", nullable: false),
                     Email = table.Column<string>(type: "text", nullable: false),
                     Phone = table.Column<string>(type: "text", nullable: false),
-                    Username = table.Column<string>(type: "text", nullable: false),
                     Password = table.Column<string>(type: "text", nullable: false),
                     RoleId = table.Column<int>(type: "integer", nullable: false),
-                    BusinessId = table.Column<int>(type: "integer", nullable: true)
+                    BusinessId = table.Column<int>(type: "integer", nullable: true),
+                    IsActive = table.Column<bool>(type: "boolean", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -187,12 +202,6 @@ namespace Infrastructure.Migrations
                 table: "Users",
                 column: "RoleId");
 
-            migrationBuilder.CreateIndex(
-                name: "IX_Users_Username",
-                table: "Users",
-                column: "Username",
-                unique: true);
-
             migrationBuilder.AddForeignKey(
                 name: "FK_Businesses_Users_AdminUserId",
                 table: "Businesses",
@@ -214,6 +223,9 @@ namespace Infrastructure.Migrations
 
             migrationBuilder.DropTable(
                 name: "MailingAddresses");
+
+            migrationBuilder.DropTable(
+                name: "RevokedTokens");
 
             migrationBuilder.DropTable(
                 name: "Users");

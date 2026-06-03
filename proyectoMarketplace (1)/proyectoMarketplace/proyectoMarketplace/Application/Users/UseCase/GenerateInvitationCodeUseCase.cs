@@ -16,9 +16,9 @@ namespace Application.Users.UseCase
             _invitationService = invitationService;
         }
 
-        public string GenerateCode(string nit, int roleId)
+        public string GenerateCode(int idEmpresa, int roleId)
         {
-            var invitation = _invitationService.GenerateCode(nit, roleId);
+            var invitation = _invitationService.GenerateCode(idEmpresa, roleId);
             return invitation;
         }
     }

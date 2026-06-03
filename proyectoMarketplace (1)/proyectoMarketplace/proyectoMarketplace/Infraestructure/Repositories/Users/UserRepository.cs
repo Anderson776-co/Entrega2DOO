@@ -1,4 +1,5 @@
 using Domain.Entities.Users;
+using Domain.Exceptions;
 using Domain.Ports;
 using Infrastructure.Contexts;
 using Microsoft.EntityFrameworkCore;
@@ -21,53 +22,29 @@ namespace Infrastructure.Repositories.Users
             await _context.SaveChangesAsync();
             return user;
         }
-        public void AssignBusiness(int userId, int businessId, int roleId)
+        public void AssignBusiness(UserEntity user)
         {
-            var user = _context.Users.FirstOrDefault(u => u.Id == userId);
-            if (user == null)
-                throw new ValidationException("User not found");
-
-            user.BusinessId = businessId;
-            user.RoleId = roleId;
+            _context.Users.Update(user);
             _context.SaveChanges();
         }
-        public UserEntity? GetUserByEmail(string email)
-        {
-            return _context.Users.FirstOrDefault(u => u.Email == email);
-        }
-        public async Task<(bool emailExists, bool usernameExists, bool phoneExists)> ExistsDuplicate(string email, string username, string phone)
+        public async Task<(bool emailExists, bool phoneExists)> ExistsDuplicate(string email, string phone)
         {
             var matches = await _context.Users
-                .Where(u => u.Email == email || u.Username == username || u.Phone == phone)
-                .Select(u => new { u.Email, u.Username, u.Phone })
+                .Where(u => u.Email == email || u.Phone == phone)
+                .Select(u => new { u.Email, u.Phone })
                 .ToListAsync();
 
             return (
                 matches.Any(u => u.Email == email),
-                matches.Any(u => u.Username == username),
                 matches.Any(u => u.Phone == phone)
             );
-        }
-        public UserEntity? GetByUsername(string username)
-        {
-            return _context.Users.FirstOrDefault(u => u.Username == username);
-        }
-        /*public Role GetRoleById(int roleId)
-        {
-            return _context.Roles.FirstOrDefault(r => r.Id == roleId);
-        }*/
-        public UserEntity? GetByUsernameWithRole(string username)
-        {
-            return _context.Users
-                .Include(u => u.Role)
-                .FirstOrDefault(u => u.Username == username);
         }
 
         public async Task<UserEntity?> Login(string identificador, string password)
         {
             var autenticatedUser = await _context.Users
                 .Include(u => u.Role)
-                .FirstOrDefaultAsync(u => u.Username == identificador || u.Email == identificador);
+                .FirstOrDefaultAsync(u => u.Email == identificador);
 
             if (autenticatedUser == null )
             {
@@ -88,6 +65,25 @@ namespace Infrastructure.Repositories.Users
                 .Where(u => u.Id == userId)
                 .Select(u => u.BusinessId)
                 .FirstOrDefault();
+        }
+
+        public async Task<UserEntity> UpdateUser(UserEntity user)
+        {
+            _context.Users.Update(user);
+            await _context.SaveChangesAsync();
+            return user;
+        }
+
+        public async Task DeleteUser(UserEntity user)
+        {
+            user.IsActive = false;
+            _context.Users.Update(user);
+            await _context.SaveChangesAsync();
+        }
+
+        public Task<UserEntity?> GetUserById(int userId)
+        {
+            return _context.Users.FirstOrDefaultAsync(u => u.Id == userId);
         }
     } 
 }

@@ -16,7 +16,7 @@ namespace Infrastructure.Services
             _configuration = configuration;
         }
 
-        public string GenerateToken(string username, string role, int id)
+        public string GenerateToken(string email, string role, int id)
         {
             var jwtSettings = _configuration.GetSection("Jwt");
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings["Key"]));
@@ -24,9 +24,11 @@ namespace Infrastructure.Services
 
             var claims = new[]
             {
-            new Claim(ClaimTypes.Name, username),
+            new Claim(ClaimTypes.Name, email),
+            new Claim(ClaimTypes.Email, email),
             new Claim(ClaimTypes.Role, role),
-            new Claim("id", id.ToString())
+            new Claim("id", id.ToString()),
+            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
         };
 
             var token = new JwtSecurityToken(

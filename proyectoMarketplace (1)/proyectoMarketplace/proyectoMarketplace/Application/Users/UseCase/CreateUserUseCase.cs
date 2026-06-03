@@ -25,11 +25,11 @@ namespace Application.Users.UseCase
             if (!Validations.EsCorreo(user.Email))
                 errors.Add("El correo electrónico no es válido. Use un formato adecuado, por ejemplo: 'empresa@dominio.com', solo se permiten letras, números, puntos, guiones bajos y guiones antes del @.");
 
-            if (!Validations.EsUsername(user.Username))
-                //errors.Add("Formato de usuario inválido. Debe tener al menos 3 caracteres y puede contener letras, números, puntos, guiones bajos o guiones, y sin espacios.");
-
             if (!Validations.EsTelefonoValido(user.Phone))
                 errors.Add("Formato de teléfono inválido. Debe contener 10 dígitos numericos.");
+
+            if (user.Password != user.ConfirmPassword)
+                errors.Add("Las contraseñas no coinciden.");
 
             if (errors.Count > 0)
                  throw new ValidationException(string.Join(" | ", errors));

@@ -36,6 +36,18 @@
         }
       }
     },
+    "/api/Auth/logout": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Business/create": {
       "post": {
         "tags": [
@@ -164,6 +176,71 @@
       "get": {
         "tags": [
           "MailingAddress"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MailingAddress/UpdateAddress/{idAddress}": {
+      "put": {
+        "tags": [
+          "MailingAddress"
+        ],
+        "parameters": [
+          {
+            "name": "idAddress",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MailingAddressDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MailingAddressDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MailingAddressDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MailingAddress/DeleteAddress/{id}": {
+      "delete": {
+        "tags": [
+          "MailingAddress"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -564,6 +641,61 @@
           }
         }
       }
+    },
+    "/api/User/updateuser": {
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePersonalInfoDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePersonalInfoDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePersonalInfoDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/getPersonalInfo": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/deleteuser": {
+      "delete": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -630,7 +762,6 @@
         "required": [
           "address",
           "city",
-          "complement",
           "contactPersonLastName",
           "contactPersonName",
           "department",
@@ -656,8 +787,8 @@
             "type": "string"
           },
           "complement": {
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "contactPersonName": {
             "minLength": 1,
@@ -674,14 +805,45 @@
         },
         "additionalProperties": false
       },
+      "UpdatePersonalInfoDTO": {
+        "required": [
+          "lastNames",
+          "names",
+          "phone"
+        ],
+        "type": "object",
+        "properties": {
+          "names": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "lastNames": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "phone": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "confirmPassword": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "UserDTO": {
         "required": [
+          "confirmPassword",
           "email",
           "lastName",
           "name",
           "password",
-          "phone",
-          "username"
+          "phone"
         ],
         "type": "object",
         "properties": {
@@ -697,15 +859,15 @@
             "minLength": 1,
             "type": "string"
           },
-          "username": {
-            "minLength": 1,
-            "type": "string"
-          },
           "email": {
             "minLength": 1,
             "type": "string"
           },
           "password": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "confirmPassword": {
             "minLength": 1,
             "type": "string"
           }

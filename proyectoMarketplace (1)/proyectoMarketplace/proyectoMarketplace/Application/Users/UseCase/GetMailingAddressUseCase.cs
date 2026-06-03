@@ -21,6 +21,7 @@ namespace Application.Users.UseCase
         {
             List<MailingAddressEntity> mailingAddressEntities =await _mailingAddressService.GetMailingAddresses(idUser);
             List<MailingAddressDTO> mailingAddressDTOs = new List<MailingAddressDTO>();
+
             foreach (var entity in mailingAddressEntities)
             {
                 MailingAddressDTO dto = new MailingAddressDTO
@@ -36,6 +37,7 @@ namespace Application.Users.UseCase
                 };
                 mailingAddressDTOs.Add(dto);
             }
+
             return mailingAddressDTOs;
         }
     }

@@ -21,9 +21,9 @@ namespace Infrastructure.Repositories.Users
             return business;
         }
 
-        public async Task<BusinessEntity?> GetBusinessByNit(string nit)
+        public async Task<BusinessEntity?> GetBusinessById(int id)
         {
-            return await _context.Businesses.FirstOrDefaultAsync(b => b.NIT == nit);
+            return await _context.Businesses.FirstOrDefaultAsync(b => b.Id == id);
         }
 
         public async Task<bool> ExistsById(int id)

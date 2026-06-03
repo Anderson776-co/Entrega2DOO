@@ -16,6 +16,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "APIDazma.Controllers.Users.AuthController",
+    "Method": "Logout",
+    "RelativePath": "api/Auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "APIDazma.Controllers.Users.BusinessController",
     "Method": "CreateBusiness",
     "RelativePath": "api/Business/create",
@@ -86,12 +96,49 @@
   },
   {
     "ContainingType": "APIDazma.Controllers.Users.MailingAddressController",
+    "Method": "DeleteMailingAddress",
+    "RelativePath": "api/MailingAddress/DeleteAddress/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIDazma.Controllers.Users.MailingAddressController",
     "Method": "GetShoppingAddresses",
     "RelativePath": "api/MailingAddress/GetUserAddresses",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIDazma.Controllers.Users.MailingAddressController",
+    "Method": "UpdateMailingAddress",
+    "RelativePath": "api/MailingAddress/UpdateAddress/{idAddress}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idAddress",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Application.Users.DTOs.MailingAddressDTO",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -338,6 +385,42 @@
       {
         "Name": "userDTO",
         "Type": "Application.Users.DTOs.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIDazma.Controllers.Users.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/User/deleteuser",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIDazma.Controllers.Users.UserController",
+    "Method": "GetPersonalInfo",
+    "RelativePath": "api/User/getPersonalInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIDazma.Controllers.Users.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/User/updateuser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDTO",
+        "Type": "Application.Users.DTO_s.UpdatePersonalInfoDTO",
         "IsRequired": true
       }
     ],

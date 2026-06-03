@@ -28,6 +28,11 @@ namespace Application.Users.UseCase
                 errors.Add("El barrio no es válido. Solo letras, números y espacios son permitidos.");
             if (!Validations.EsTelefonoValido(address.Phone))
                 errors.Add("El teléfono no es válido. Debe contener solo dígitos y tener una longitud de 10 caracteres.");
+            if (!String.IsNullOrEmpty(address.Complement))
+            {
+                if (!Validations.EsComplementoValido(address.Complement))
+                    errors.Add("El complemento no es válido.");
+            }
             if (!Validations.NombreValido(address.ContactPersonName, address.ContactPersonLastName))
                 errors.Add("El nombre o apellido del contacto no son válidos. Solo letras y espacios son permitidos.");
 

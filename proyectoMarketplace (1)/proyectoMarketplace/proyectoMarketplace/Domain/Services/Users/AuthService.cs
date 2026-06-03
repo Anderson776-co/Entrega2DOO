@@ -22,5 +22,10 @@ namespace Domain.Services.Users
 
             return user;
         }
+
+        public async Task Logout(string jti, DateTime tokenExpiration)
+        {
+            
+        }
     }
 }

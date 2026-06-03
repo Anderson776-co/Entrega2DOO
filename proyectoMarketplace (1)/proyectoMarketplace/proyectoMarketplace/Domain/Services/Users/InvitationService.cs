@@ -1,4 +1,3 @@
-using Domain.Entities;
 using Domain.Exceptions;
 using Domain.Ports;
 using Domain.Entities.Users;
@@ -17,18 +16,14 @@ namespace Domain.Services.Users
             _userRepository = userRepository;
             _businessRepository = businessRepository;
         }
-        public string GenerateCode(string nit, int roleId)
+        public string GenerateCode(int businessId, int roleId)
         {
-            var business = _businessRepository.GetBusinessByNit(nit);
-            if (business == null)
-                throw new ValidationException("Empresa no encontrada");
-
             var code = "DAZMA-" + GenerateRandomCode();
 
             var invitationCode = new InvitationCodeEntity
             {
                 Code = code,
-                BusinessId = business.Id,
+                BusinessId = businessId,
                 RoleId = roleId,
                 ExpiresAt = DateTime.Now.AddHours(24),
                 IsUsed = false
@@ -46,20 +41,27 @@ namespace Domain.Services.Users
                 .ToArray());
         }
 
-        public void JoinBusiness(string code, int userId)
+        public async Task JoinBusinessAsync(string code, int userId)
         {
             var invitationCode = _invitationRepository.GetByCode(code);
 
             if (invitationCode == null)
-                throw new ValidationException("Invalid invitation code");
+                throw new NonFoundException("Codigo de invitacion no encontrado");
 
             if (invitationCode.IsUsed)
-                throw new ValidationException("Invitation code has already been used");
+                throw new ValidationException("El codigo de invitacion ya ha sido utilizado");
 
             if (invitationCode.ExpiresAt < DateTime.Now)
-                throw new ValidationException("Invitation code has expired");
+                throw new ValidationException("El codigo de invitacion ha expirado");
 
-            _userRepository.AssignBusiness(userId, invitationCode.BusinessId, invitationCode.RoleId);
+            var user = await _userRepository.GetUserById(userId);
+            if (user == null)
+                throw new NonFoundException("User not found");
+
+            user.BusinessId = invitationCode.BusinessId;
+            user.RoleId = invitationCode.RoleId;
+
+            _userRepository.AssignBusiness(user);
             _invitationRepository.MarkAsUsed(invitationCode);
         }
     }

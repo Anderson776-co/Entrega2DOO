@@ -17,7 +17,7 @@ namespace Application.Users.UseCase
         }
         public void JoinWithCode(string code, int userId)
         {
-            _invitationService.JoinBusiness(code, userId);
+            _invitationService.JoinBusinessAsync(code, userId);
         }
     }
 }

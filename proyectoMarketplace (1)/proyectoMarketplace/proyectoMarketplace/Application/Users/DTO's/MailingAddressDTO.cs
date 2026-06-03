@@ -13,8 +13,7 @@ namespace Application.Users.DTOs
         public required string City { get; set; } = string.Empty;
         [Required(ErrorMessage = "El campo del barrio es obligatorio")]
         public required string Neighborhood { get; set; } = string.Empty;
-        [Required(ErrorMessage = "El campo del complemento es obligatorio")]
-        public required string Complement { get; set; } = string.Empty;
+        public string? Complement { get; set; } = string.Empty;
         [Required(ErrorMessage = "El campo del nombre de la persona de contacto es obligatorio")]
         public required string ContactPersonName { get; set; } = string.Empty;
         [Required(ErrorMessage = "El campo del apellido de la persona de contacto es obligatorio")]
@@ -30,7 +29,7 @@ namespace Application.Users.DTOs
                 Department = string.Join(" ",mailingAddressDTO.Department.Trim().Split(' ', StringSplitOptions.RemoveEmptyEntries)),
                 City = string.Join(" ",mailingAddressDTO.City.Trim().Split(' ', StringSplitOptions.RemoveEmptyEntries)),
                 Neighborhood = string.Join(" ",mailingAddressDTO.Neighborhood.Trim().Split(' ', StringSplitOptions.RemoveEmptyEntries)),
-                Complement = string.Join(" ",mailingAddressDTO.Complement.Trim().Split(' ', StringSplitOptions.RemoveEmptyEntries)),
+                Complement = string.Join(" ",mailingAddressDTO.Complement?.Trim().Split(' ', StringSplitOptions.RemoveEmptyEntries) ?? new string[0]),
                 ContactPersonName = string.Join(" ",mailingAddressDTO.ContactPersonName.Trim().Split(' ', StringSplitOptions.RemoveEmptyEntries)),
                 ContactPersonLastName = string.Join(" ",mailingAddressDTO.ContactPersonLastName.Trim().Split(' ', StringSplitOptions.RemoveEmptyEntries)),
                 Phone = mailingAddressDTO.Phone.Replace(" ", ""),

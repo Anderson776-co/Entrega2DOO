@@ -13,14 +13,12 @@ namespace Infrastructure.Contexts
         public DbSet<MailingAddressEntity> MailingAddresses { get; set; }
         public DbSet<BusinessEntity> Businesses { get; set; }
         public DbSet<InvitationCodeEntity> InvitationCodes { get; set; }
+        public DbSet<RevokedTokenEntity> RevokedTokens { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<UserEntity>().HasIndex(u => u.Email).IsUnique();
-
-            modelBuilder.Entity<UserEntity>()
-                .HasIndex(u => u.Username).IsUnique();
 
             modelBuilder.Entity<UserEntity>()
                 .HasIndex(u => u.Phone).IsUnique();
