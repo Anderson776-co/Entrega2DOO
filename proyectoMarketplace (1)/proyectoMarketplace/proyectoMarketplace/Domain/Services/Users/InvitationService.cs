@@ -16,20 +16,28 @@ namespace Domain.Services.Users
             _userRepository = userRepository;
             _businessRepository = businessRepository;
         }
-        public string GenerateCode(int businessId, int roleId)
+        public async Task<string> GenerateCode(int userId)
         {
+            var user = await _userRepository.GetUserById(userId);
+
+            if (user == null)
+                throw new NonFoundException("Su usuario no fue encontrado");
+
+            if (user.BusinessId is null)
+                throw new ValidationException("Debes crear una empresa antes de generar un código de invitación");
+
             var code = "DAZMA-" + GenerateRandomCode();
 
             var invitationCode = new InvitationCodeEntity
             {
                 Code = code,
-                BusinessId = businessId,
-                RoleId = roleId,
+                BusinessId = user.BusinessId.Value,
+                RoleId = user.RoleId,
                 ExpiresAt = DateTime.Now.AddHours(24),
                 IsUsed = false
             };
 
-            return _invitationRepository.CreateCode(invitationCode);
+            return await _invitationRepository.CreateCode(invitationCode);
         }
 
         private string GenerateRandomCode()
@@ -41,9 +49,9 @@ namespace Domain.Services.Users
                 .ToArray());
         }
 
-        public async Task JoinBusinessAsync(string code, int userId)
+        public async Task JoinBusiness(string code, int userId)
         {
-            var invitationCode = _invitationRepository.GetByCode(code);
+            var invitationCode = await _invitationRepository.GetByCode(code);
 
             if (invitationCode == null)
                 throw new NonFoundException("Codigo de invitacion no encontrado");
@@ -62,7 +70,7 @@ namespace Domain.Services.Users
             user.RoleId = invitationCode.RoleId;
 
             _userRepository.AssignBusiness(user);
-            _invitationRepository.MarkAsUsed(invitationCode);
+            await _invitationRepository.MarkAsUsed(invitationCode);
         }
     }
 }

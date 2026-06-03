@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\postgresqlconnection\\controllers\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|solutionrelative:postgresqlconnection\\controllers\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\postgresqlconnection\\controllers\\users\\mailingaddresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|solutionrelative:postgresqlconnection\\controllers\\users\\mailingaddresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\services\\users\\invitationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\services\\users\\invitationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\users\\usecase\\generateinvitationcodeusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\users\\usecase\\generateinvitationcodeusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\postgresqlconnection\\controllers\\users\\invitationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|solutionrelative:postgresqlconnection\\controllers\\users\\invitationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\infraestructure\\repositories\\users\\businessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|solutionrelative:infraestructure\\repositories\\users\\businessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\ports\\ibusinessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\ports\\ibusinessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\postgresqlconnection\\controllers\\users\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|solutionrelative:postgresqlconnection\\controllers\\users\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\users\\dto\u0027s\\updatepersonalinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\users\\dto\u0027s\\updatepersonalinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\users\\dto\u0027s\\mailingaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\users\\dto\u0027s\\mailingaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\infraestructure\\repositories\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|solutionrelative:infraestructure\\repositories\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\users\\usecase\\getpersonalinfousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\services\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\services\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\postgresqlconnection\\controllers\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|solutionrelative:postgresqlconnection\\controllers\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\users\\dto\u0027s\\userinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,14 +95,6 @@
       "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\users\\usecase\\authusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\postgresqlconnection\\controllers\\users\\invitationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|solutionrelative:postgresqlconnection\\controllers\\users\\invitationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\services\\users\\invitationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\services\\users\\invitationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\services\\users\\mailingaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\services\\users\\mailingaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -79,20 +107,12 @@
       "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\users\\usecase\\updatemailingaddressusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\users\\dto\u0027s\\mailingaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\users\\dto\u0027s\\mailingaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\entities\\users\\mailingaddressentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\users\\mailingaddressentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\validations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\validations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\postgresqlconnection\\controllers\\users\\mailingaddresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|solutionrelative:postgresqlconnection\\controllers\\users\\mailingaddresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\users\\usecase\\getmailingaddressusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -119,10 +139,6 @@
       "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\users\\invitationcodeentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\infraestructure\\repositories\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|solutionrelative:infraestructure\\repositories\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\ports\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\ports\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -145,10 +161,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\services\\users\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\services\\users\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\postgresqlconnection\\controllers\\users\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF7E55CB-1A77-CF16-C322-BD13792AD5F4}|PostgreSQLConnection\\APIDazma.csproj|solutionrelative:postgresqlconnection\\controllers\\users\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\infraestructure\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -259,10 +271,6 @@
       "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\infraestructure\\repositories\\users\\businessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A43181-B5CD-4AC2-9D3B-A032E30590D9}|Infraestructure\\Infrastructure.csproj|solutionrelative:infraestructure\\repositories\\users\\businessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\entities\\orders\\orderentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\orders\\orderentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -289,10 +297,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\application\\users\\usecase\\createbusinessusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4C3266A-2D5C-4274-875C-FC1B0739383E}|Application\\Application.csproj|solutionrelative:application\\users\\usecase\\createbusinessusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|c:\\users\\ander\\onedrive - uco\\documentos\\github\\entrega2doo\\proyectomarketplace (1)\\proyectomarketplace\\proyectomarketplace\\domain\\ports\\ibusinessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F831A575-CEFB-4482-9696-AC265E8941BC}|Domain\\Domain.csproj|solutionrelative:domain\\ports\\ibusinessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -302,7 +306,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -322,85 +326,142 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserInfoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\DTO\u0027s\\UserInfoDTO.cs",
-              "RelativeDocumentMoniker": "Application\\Users\\DTO\u0027s\\UserInfoDTO.cs",
-              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\DTO\u0027s\\UserInfoDTO.cs",
-              "RelativeToolTip": "Application\\Users\\DTO\u0027s\\UserInfoDTO.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABoAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "GenerateInvitationCodeUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\GenerateInvitationCodeUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\Users\\UseCase\\GenerateInvitationCodeUseCase.cs",
+              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\GenerateInvitationCodeUseCase.cs",
+              "RelativeToolTip": "Application\\Users\\UseCase\\GenerateInvitationCodeUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T22:27:02.258Z",
+              "WhenOpened": "2026-06-02T23:38:44.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InvitationService.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Users\\InvitationService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Users\\InvitationService.cs",
+              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Users\\InvitationService.cs",
+              "RelativeToolTip": "Domain\\Services\\Users\\InvitationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:32:36.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "jwtService.cs",
-              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Services\\jwtService.cs",
-              "RelativeDocumentMoniker": "Infraestructure\\Services\\jwtService.cs",
-              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Services\\jwtService.cs",
-              "RelativeToolTip": "Infraestructure\\Services\\jwtService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAswB0AAAArAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "IBusinessRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Ports\\IBusinessRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Ports\\IBusinessRepository.cs",
+              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Ports\\IBusinessRepository.cs",
+              "RelativeToolTip": "Domain\\Ports\\IBusinessRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T14:55:44.848Z",
+              "WhenOpened": "2026-05-28T20:25:49.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BusinessRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Users\\BusinessRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repositories\\Users\\BusinessRepository.cs",
+              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Users\\BusinessRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Repositories\\Users\\BusinessRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:30:55.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MailingAddressController.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\MailingAddressController.cs",
+              "RelativeDocumentMoniker": "PostgreSQLConnection\\Controllers\\Users\\MailingAddressController.cs",
+              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\MailingAddressController.cs",
+              "RelativeToolTip": "PostgreSQLConnection\\Controllers\\Users\\MailingAddressController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwDYAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:40:01.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UpdatePersonalInfoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\DTO\u0027s\\UpdatePersonalInfoDTO.cs",
-              "RelativeDocumentMoniker": "Application\\Users\\DTO\u0027s\\UpdatePersonalInfoDTO.cs",
-              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\DTO\u0027s\\UpdatePersonalInfoDTO.cs",
-              "RelativeToolTip": "Application\\Users\\DTO\u0027s\\UpdatePersonalInfoDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T12:35:15.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\UserController.cs",
               "RelativeDocumentMoniker": "PostgreSQLConnection\\Controllers\\Users\\UserController.cs",
               "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\UserController.cs",
               "RelativeToolTip": "PostgreSQLConnection\\Controllers\\Users\\UserController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAA1wDwAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-27T14:57:38.758Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\DTO\u0027s\\UserDTO.cs",
-              "RelativeDocumentMoniker": "Application\\Users\\DTO\u0027s\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\DTO\u0027s\\UserDTO.cs",
-              "RelativeToolTip": "Application\\Users\\DTO\u0027s\\UserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABNAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "InvitationController.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\InvitationController.cs",
+              "RelativeDocumentMoniker": "PostgreSQLConnection\\Controllers\\Users\\InvitationController.cs",
+              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\InvitationController.cs",
+              "RelativeToolTip": "PostgreSQLConnection\\Controllers\\Users\\InvitationController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB4AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T14:57:19.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T19:19:34.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetPersonalInfoUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\GetPersonalInfoUseCase.cs",
-              "RelativeDocumentMoniker": "Application\\Users\\UseCase\\GetPersonalInfoUseCase.cs",
-              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\GetPersonalInfoUseCase.cs",
-              "RelativeToolTip": "Application\\Users\\UseCase\\GetPersonalInfoUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA8AAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\AuthController.cs",
+              "RelativeDocumentMoniker": "PostgreSQLConnection\\Controllers\\Users\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\AuthController.cs",
+              "RelativeToolTip": "PostgreSQLConnection\\Controllers\\Users\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T14:30:31.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T19:19:30.558Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
+              "Title": "UpdatePersonalInfoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\DTO\u0027s\\UpdatePersonalInfoDTO.cs",
+              "RelativeDocumentMoniker": "Application\\Users\\DTO\u0027s\\UpdatePersonalInfoDTO.cs",
+              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\DTO\u0027s\\UpdatePersonalInfoDTO.cs",
+              "RelativeToolTip": "Application\\Users\\DTO\u0027s\\UpdatePersonalInfoDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T12:35:15.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MailingAddressDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\DTO\u0027s\\MailingAddressDTO.cs",
+              "RelativeDocumentMoniker": "Application\\Users\\DTO\u0027s\\MailingAddressDTO.cs",
+              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\DTO\u0027s\\MailingAddressDTO.cs",
+              "RelativeToolTip": "Application\\Users\\DTO\u0027s\\MailingAddressDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T18:28:31.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Users\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repositories\\Users\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Users\\UserRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Repositories\\Users\\UserRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAMwDUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T15:40:25.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Users\\UserService.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Users\\UserService.cs",
@@ -408,12 +469,59 @@
               "RelativeToolTip": "Domain\\Services\\Users\\UserService.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAD4vy4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T15:52:21.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T15:52:21.485Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
+              "Title": "GetPersonalInfoUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\GetPersonalInfoUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\Users\\UseCase\\GetPersonalInfoUseCase.cs",
+              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\GetPersonalInfoUseCase.cs",
+              "RelativeToolTip": "Application\\Users\\UseCase\\GetPersonalInfoUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T14:30:31.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\DTO\u0027s\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Application\\Users\\DTO\u0027s\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\DTO\u0027s\\UserDTO.cs",
+              "RelativeToolTip": "Application\\Users\\DTO\u0027s\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T14:57:19.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "jwtService.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Services\\jwtService.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Services\\jwtService.cs",
+              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Services\\jwtService.cs",
+              "RelativeToolTip": "Infraestructure\\Services\\jwtService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswB0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T14:55:44.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserInfoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\DTO\u0027s\\UserInfoDTO.cs",
+              "RelativeDocumentMoniker": "Application\\Users\\DTO\u0027s\\UserInfoDTO.cs",
+              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\DTO\u0027s\\UserInfoDTO.cs",
+              "RelativeToolTip": "Application\\Users\\DTO\u0027s\\UserInfoDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T22:27:02.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "TokenRevocationMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Middleware\\TokenRevocationMiddleware.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Middleware\\TokenRevocationMiddleware.cs",
@@ -421,12 +529,11 @@
               "RelativeToolTip": "Infraestructure\\Middleware\\TokenRevocationMiddleware.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAUwCUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T16:37:05.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T16:37:05.04Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "UserDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Contexts\\UserDbContext.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Contexts\\UserDbContext.cs",
@@ -434,12 +541,11 @@
               "RelativeToolTip": "Infraestructure\\Contexts\\UserDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T16:08:16.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T16:08:16.527Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "UserEntity.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Entities\\Users\\UserEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Users\\UserEntity.cs",
@@ -447,12 +553,11 @@
               "RelativeToolTip": "Domain\\Entities\\Users\\UserEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T21:38:23.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-01T21:38:23.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "CreateUserUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\CreateUserUseCase.cs",
               "RelativeDocumentMoniker": "Application\\Users\\UseCase\\CreateUserUseCase.cs",
@@ -460,12 +565,11 @@
               "RelativeToolTip": "Application\\Users\\UseCase\\CreateUserUseCase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T15:43:00.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T15:43:00.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Program.cs",
               "RelativeDocumentMoniker": "PostgreSQLConnection\\Program.cs",
@@ -473,12 +577,11 @@
               "RelativeToolTip": "PostgreSQLConnection\\Program.cs",
               "ViewState": "AgIAAFcAAAAAAAAAAAAIwHQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T16:53:04.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T16:53:04.639Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "CreateMailingAddressUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\CreateMailingAddressUseCase.cs",
               "RelativeDocumentMoniker": "Application\\Users\\UseCase\\CreateMailingAddressUseCase.cs",
@@ -486,25 +589,11 @@
               "RelativeToolTip": "Application\\Users\\UseCase\\CreateMailingAddressUseCase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T20:46:03.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T20:46:03.894Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "InvitationService.cs",
-              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Users\\InvitationService.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Users\\InvitationService.cs",
-              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Users\\InvitationService.cs",
-              "RelativeToolTip": "Domain\\Services\\Users\\InvitationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T20:32:36.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "AuthUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\AuthUseCase.cs",
               "RelativeDocumentMoniker": "Application\\Users\\UseCase\\AuthUseCase.cs",
@@ -512,25 +601,11 @@
               "RelativeToolTip": "Application\\Users\\UseCase\\AuthUseCase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T20:11:11.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T20:11:11.781Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "InvitationController.cs",
-              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\InvitationController.cs",
-              "RelativeDocumentMoniker": "PostgreSQLConnection\\Controllers\\Users\\InvitationController.cs",
-              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\InvitationController.cs",
-              "RelativeToolTip": "PostgreSQLConnection\\Controllers\\Users\\InvitationController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBkAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T19:19:34.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "MailingAddressService.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Users\\MailingAddressService.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Users\\MailingAddressService.cs",
@@ -538,12 +613,11 @@
               "RelativeToolTip": "Domain\\Services\\Users\\MailingAddressService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T20:46:21.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T20:46:21.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "MailingAddressRepository.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Users\\MailingAddressRepository.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Repositories\\Users\\MailingAddressRepository.cs",
@@ -551,12 +625,11 @@
               "RelativeToolTip": "Infraestructure\\Repositories\\Users\\MailingAddressRepository.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAIwB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T20:49:56.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T20:49:56.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "UpdateMailingAddressUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\UpdateMailingAddressUseCase.cs",
               "RelativeDocumentMoniker": "Application\\Users\\UseCase\\UpdateMailingAddressUseCase.cs",
@@ -564,25 +637,11 @@
               "RelativeToolTip": "Application\\Users\\UseCase\\UpdateMailingAddressUseCase.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwCkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T18:14:13.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T18:14:13.078Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MailingAddressDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\DTO\u0027s\\MailingAddressDTO.cs",
-              "RelativeDocumentMoniker": "Application\\Users\\DTO\u0027s\\MailingAddressDTO.cs",
-              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\DTO\u0027s\\MailingAddressDTO.cs",
-              "RelativeToolTip": "Application\\Users\\DTO\u0027s\\MailingAddressDTO.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T18:28:31.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "MailingAddressEntity.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Entities\\Users\\MailingAddressEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Users\\MailingAddressEntity.cs",
@@ -590,12 +649,11 @@
               "RelativeToolTip": "Domain\\Entities\\Users\\MailingAddressEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T00:06:01.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T00:06:01.613Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "Validations.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Validations.cs",
               "RelativeDocumentMoniker": "Application\\Validations.cs",
@@ -603,25 +661,11 @@
               "RelativeToolTip": "Application\\Validations.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAgwBMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T22:25:38.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-01T22:25:38.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "MailingAddressController.cs",
-              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\MailingAddressController.cs",
-              "RelativeDocumentMoniker": "PostgreSQLConnection\\Controllers\\Users\\MailingAddressController.cs",
-              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\MailingAddressController.cs",
-              "RelativeToolTip": "PostgreSQLConnection\\Controllers\\Users\\MailingAddressController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCUAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T20:40:01.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "GetMailingAddressUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\GetMailingAddressUseCase.cs",
               "RelativeDocumentMoniker": "Application\\Users\\UseCase\\GetMailingAddressUseCase.cs",
@@ -629,12 +673,11 @@
               "RelativeToolTip": "Application\\Users\\UseCase\\GetMailingAddressUseCase.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAIA2wBUAAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T20:54:02.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T20:54:02.319Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "IMailingAddressRepository.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Ports\\IMailingAddressRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Ports\\IMailingAddressRepository.cs",
@@ -642,12 +685,11 @@
               "RelativeToolTip": "Domain\\Ports\\IMailingAddressRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T20:47:57.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T20:47:57.631Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "DeleteMailingAddressUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\DeleteMailingAddressUseCase.cs",
               "RelativeDocumentMoniker": "Application\\Users\\UseCase\\DeleteMailingAddressUseCase.cs",
@@ -655,12 +697,11 @@
               "RelativeToolTip": "Application\\Users\\UseCase\\DeleteMailingAddressUseCase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T18:14:48.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T18:14:48.279Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "UpdatePersonalInformationUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\UpdatePersonalInformationUseCase.cs",
               "RelativeDocumentMoniker": "Application\\Users\\UseCase\\UpdatePersonalInformationUseCase.cs",
@@ -668,12 +709,11 @@
               "RelativeToolTip": "Application\\Users\\UseCase\\UpdatePersonalInformationUseCase.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAIAwwBgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T12:46:25.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T12:46:25.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "InvitationCodeEntity.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Entities\\Users\\InvitationCodeEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Users\\InvitationCodeEntity.cs",
@@ -681,12 +721,11 @@
               "RelativeToolTip": "Domain\\Entities\\Users\\InvitationCodeEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T16:59:46.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T16:59:46.712Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "RevokedTokenRepository.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Users\\RevokedTokenRepository.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Repositories\\Users\\RevokedTokenRepository.cs",
@@ -694,25 +733,11 @@
               "RelativeToolTip": "Infraestructure\\Repositories\\Users\\RevokedTokenRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T16:28:24.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T16:28:24.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Users\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Infraestructure\\Repositories\\Users\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Users\\UserRepository.cs",
-              "RelativeToolTip": "Infraestructure\\Repositories\\Users\\UserRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAvwBoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T15:40:25.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Ports\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Ports\\IUserRepository.cs",
@@ -720,12 +745,11 @@
               "RelativeToolTip": "Domain\\Ports\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T15:56:39.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T15:56:39.283Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "InvitationCodeRepository.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Users\\InvitationCodeRepository.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Repositories\\Users\\InvitationCodeRepository.cs",
@@ -733,12 +757,11 @@
               "RelativeToolTip": "Infraestructure\\Repositories\\Users\\InvitationCodeRepository.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T01:19:34.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-30T01:19:34.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "JoinBusinessUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\JoinBusinessUseCase.cs",
               "RelativeDocumentMoniker": "Application\\Users\\UseCase\\JoinBusinessUseCase.cs",
@@ -746,12 +769,11 @@
               "RelativeToolTip": "Application\\Users\\UseCase\\JoinBusinessUseCase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T16:46:30.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T16:46:30.903Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "RevokedTokenEntity.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Entities\\Users\\RevokedTokenEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Users\\RevokedTokenEntity.cs",
@@ -759,12 +781,11 @@
               "RelativeToolTip": "Domain\\Entities\\Users\\RevokedTokenEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T16:35:27.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T16:35:27.157Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "IRevokedTokenRepository.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Ports\\IRevokedTokenRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Ports\\IRevokedTokenRepository.cs",
@@ -772,12 +793,11 @@
               "RelativeToolTip": "Domain\\Ports\\IRevokedTokenRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T16:23:34.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T16:23:34.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Users\\AuthService.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Users\\AuthService.cs",
@@ -785,25 +805,11 @@
               "RelativeToolTip": "Domain\\Services\\Users\\AuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T20:07:54.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T20:07:54.962Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\AuthController.cs",
-              "RelativeDocumentMoniker": "PostgreSQLConnection\\Controllers\\Users\\AuthController.cs",
-              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\AuthController.cs",
-              "RelativeToolTip": "PostgreSQLConnection\\Controllers\\Users\\AuthController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAcwAsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T19:19:30.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "ImageService.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Services\\ImageService.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Services\\ImageService.cs",
@@ -811,12 +817,11 @@
               "RelativeToolTip": "Infraestructure\\Services\\ImageService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T14:55:46.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T14:55:46.019Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "deleteUserAccountUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\deleteUserAccountUseCase.cs",
               "RelativeDocumentMoniker": "Application\\Users\\UseCase\\deleteUserAccountUseCase.cs",
@@ -824,12 +829,11 @@
               "RelativeToolTip": "Application\\Users\\UseCase\\deleteUserAccountUseCase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T14:43:15.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T14:43:15.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "PublicationRepository.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Publications\\PublicationRepository.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Repositories\\Publications\\PublicationRepository.cs",
@@ -837,12 +841,11 @@
               "RelativeToolTip": "Infraestructure\\Repositories\\Publications\\PublicationRepository.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAwwC4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T21:00:35.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T21:00:35.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "BusinessService.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Users\\BusinessService.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Users\\BusinessService.cs",
@@ -850,12 +853,11 @@
               "RelativeToolTip": "Domain\\Services\\Users\\BusinessService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T16:08:06.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T16:08:06.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "BusinessEntity.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Entities\\Business\\BusinessEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Business\\BusinessEntity.cs",
@@ -863,12 +865,11 @@
               "RelativeToolTip": "Domain\\Entities\\Business\\BusinessEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T14:47:17.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T14:47:17.794Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Orders\\OrderController.cs",
               "RelativeDocumentMoniker": "PostgreSQLConnection\\Controllers\\Orders\\OrderController.cs",
@@ -880,7 +881,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "PublicationController.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Publications\\PublicationController.cs",
               "RelativeDocumentMoniker": "PostgreSQLConnection\\Controllers\\Publications\\PublicationController.cs",
@@ -892,7 +893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\appsettings.json",
               "RelativeDocumentMoniker": "PostgreSQLConnection\\appsettings.json",
@@ -904,7 +905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "PublicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Contexts\\PublicationDbContext.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Contexts\\PublicationDbContext.cs",
@@ -916,7 +917,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "CreatePublicationUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Publications\\UseCase\\CreatePublicationUseCase.cs",
               "RelativeDocumentMoniker": "Application\\Publications\\UseCase\\CreatePublicationUseCase.cs",
@@ -928,7 +929,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "IPublicationRepository.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Ports\\IPublicationRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Ports\\IPublicationRepository.cs",
@@ -940,7 +941,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 51,
               "Title": "PublicationService.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Publications\\PublicationService.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Publications\\PublicationService.cs",
@@ -952,7 +953,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 52,
               "Title": "PublicationDTO.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Publications\\DTO\u0027s\\PublicationDTO.cs",
               "RelativeDocumentMoniker": "Application\\Publications\\DTO\u0027s\\PublicationDTO.cs",
@@ -964,7 +965,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 53,
               "Title": "BusinessController.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\PostgreSQLConnection\\Controllers\\Users\\BusinessController.cs",
               "RelativeDocumentMoniker": "PostgreSQLConnection\\Controllers\\Users\\BusinessController.cs",
@@ -976,7 +977,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 54,
               "Title": "GetPublicationUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Publications\\UseCase\\GetPublicationUseCase.cs",
               "RelativeDocumentMoniker": "Application\\Publications\\UseCase\\GetPublicationUseCase.cs",
@@ -988,7 +989,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 55,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Services\\Orders\\OrderService.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Orders\\OrderService.cs",
@@ -1000,7 +1001,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 56,
               "Title": "PublicationResponseDTO.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Publications\\DTO\u0027s\\PublicationResponseDTO.cs",
               "RelativeDocumentMoniker": "Application\\Publications\\DTO\u0027s\\PublicationResponseDTO.cs",
@@ -1012,7 +1013,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 58,
               "Title": "UpdatePublicationByIdUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Publications\\UseCase\\UpdatePublicationByIdUseCase.cs",
               "RelativeDocumentMoniker": "Application\\Publications\\UseCase\\UpdatePublicationByIdUseCase.cs",
@@ -1024,7 +1025,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 57,
               "Title": "DeletePublicationByIdUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Publications\\UseCase\\DeletePublicationByIdUseCase.cs",
               "RelativeDocumentMoniker": "Application\\Publications\\UseCase\\DeletePublicationByIdUseCase.cs",
@@ -1036,7 +1037,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 59,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Orders\\OrderRepository.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Repositories\\Orders\\OrderRepository.cs",
@@ -1048,7 +1049,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 60,
               "Title": "UpdateStateOrderUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Orders\\UseCase\\UpdateStateOrderUseCase.cs",
               "RelativeDocumentMoniker": "Application\\Orders\\UseCase\\UpdateStateOrderUseCase.cs",
@@ -1060,7 +1061,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 61,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Ports\\Order\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Ports\\Order\\IOrderRepository.cs",
@@ -1072,7 +1073,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 62,
               "Title": "OrderDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Contexts\\OrderDbContext.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Contexts\\OrderDbContext.cs",
@@ -1084,7 +1085,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 63,
               "Title": "DeleteOrderByIdUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Orders\\UseCase\\DeleteOrderByIdUseCase.cs",
               "RelativeDocumentMoniker": "Application\\Orders\\UseCase\\DeleteOrderByIdUseCase.cs",
@@ -1096,7 +1097,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 65,
               "Title": "GetOrderUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Orders\\UseCase\\GetOrderUseCase.cs",
               "RelativeDocumentMoniker": "Application\\Orders\\UseCase\\GetOrderUseCase.cs",
@@ -1108,19 +1109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "BusinessRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Users\\BusinessRepository.cs",
-              "RelativeDocumentMoniker": "Infraestructure\\Repositories\\Users\\BusinessRepository.cs",
-              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Infraestructure\\Repositories\\Users\\BusinessRepository.cs",
-              "RelativeToolTip": "Infraestructure\\Repositories\\Users\\BusinessRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T20:30:55.322Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 66,
               "Title": "Status.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Models\\Status.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Status.cs",
@@ -1132,7 +1121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 64,
               "Title": "OrderDTO.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Orders\\DTO\u0027s\\OrderDTO.cs",
               "RelativeDocumentMoniker": "Application\\Orders\\DTO\u0027s\\OrderDTO.cs",
@@ -1144,7 +1133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 67,
               "Title": "OrderEntity.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Entities\\Orders\\OrderEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Orders\\OrderEntity.cs",
@@ -1156,7 +1145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 68,
               "Title": "PublicationEntity.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Entities\\Publications\\PublicationEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Publications\\PublicationEntity.cs",
@@ -1168,7 +1157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 69,
               "Title": "PublicationStatus.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Models\\PublicationStatus.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\PublicationStatus.cs",
@@ -1180,7 +1169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 70,
               "Title": "RegisterOrderUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Orders\\UseCase\\RegisterOrderUseCase.cs",
               "RelativeDocumentMoniker": "Application\\Orders\\UseCase\\RegisterOrderUseCase.cs",
@@ -1192,7 +1181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 72,
               "Title": "ProductEntity.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Entities\\Publications\\ProductEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Publications\\ProductEntity.cs",
@@ -1204,7 +1193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 71,
               "Title": "CategoryEntity.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Entities\\Publications\\CategoryEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Publications\\CategoryEntity.cs",
@@ -1216,7 +1205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 73,
               "Title": "CreateBusinessUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Application\\Users\\UseCase\\CreateBusinessUseCase.cs",
               "RelativeDocumentMoniker": "Application\\Users\\UseCase\\CreateBusinessUseCase.cs",
@@ -1225,18 +1214,6 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAuwCEAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-28T20:25:21.149Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "IBusinessRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Ports\\IBusinessRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Ports\\IBusinessRepository.cs",
-              "ToolTip": "C:\\Users\\ander\\OneDrive - UCO\\Documentos\\GitHub\\Entrega2DOO\\proyectoMarketplace (1)\\proyectoMarketplace\\proyectoMarketplace\\Domain\\Ports\\IBusinessRepository.cs",
-              "RelativeToolTip": "Domain\\Ports\\IBusinessRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T20:25:49.493Z"
             }
           ]
         }

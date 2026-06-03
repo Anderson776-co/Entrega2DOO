@@ -16,9 +16,9 @@ namespace Application.Users.UseCase
             _invitationService = invitationService;
         }
 
-        public string GenerateCode(int idEmpresa, int roleId)
+        public async Task<string> GenerateCode(int userId)
         {
-            var invitation = _invitationService.GenerateCode(idEmpresa, roleId);
+            var invitation = await _invitationService.GenerateCode(userId);
             return invitation;
         }
     }

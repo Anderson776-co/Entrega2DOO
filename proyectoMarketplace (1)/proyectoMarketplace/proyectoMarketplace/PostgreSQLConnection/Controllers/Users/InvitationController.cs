@@ -1,5 +1,6 @@
 using Application.Users.DTOs;
 using Application.Users.UseCase;
+using Domain.Exceptions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Runtime.CompilerServices;
@@ -7,6 +8,7 @@ using System.Runtime.CompilerServices;
 namespace APIDazma.Controllers.Users
 {
     [ApiController]
+    [Authorize]
     [Route("api/[controller]")]
     public class InvitationController : ControllerBase
     {
@@ -19,18 +21,33 @@ namespace APIDazma.Controllers.Users
             _joinBusinessUseCase = joinBusinessUseCase;
         }
 
-        [Authorize]
-        [HttpPost("generate/{idEmpresa}/{roleId}")]
-        public IActionResult GenerateCode(int idEmpresa, int roleId)
+        
+        [HttpPost("generate")]
+        [Authorize(Roles = "StoreAdmin")]
+        public async Task<IActionResult> GenerateCode()
         {
-           var code = _invitationUseCase.GenerateCode(idEmpresa, roleId);
-           return Ok(new { code });
+            var authenticatedUserId = User.Claims.FirstOrDefault(c => c.Type == "id")?.Value;
+
+            if (authenticatedUserId == null)
+            {
+                throw new UnauthorizedException("El usuario no esta autenticado");
+            }
+
+            var code = await _invitationUseCase.GenerateCode(int.Parse(authenticatedUserId)); 
+            return Ok(new { code });
         }
 
-        [HttpPost("join")]
-        public IActionResult JoinWithCode([FromBody] JoinRequestDTO dto)
+        [HttpPost("join/{code}")]
+        public async Task<IActionResult> JoinWithCode(string code)
         {
-            _joinBusinessUseCase.JoinWithCode(dto.Code, dto.UserId);
+            var authenticatedUserId = User.Claims.FirstOrDefault(c => c.Type == "id")?.Value;
+
+            if (authenticatedUserId == null)
+            {
+                throw new UnauthorizedException("El usuario no esta autenticado");
+            }
+
+            await _joinBusinessUseCase.JoinWithCode(code, int.Parse(authenticatedUserId));
             return Ok(new { message = "Te has unido exitosamente a la empresa." });
             
         }

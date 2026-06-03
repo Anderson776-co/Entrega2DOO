@@ -13,23 +13,23 @@ namespace Infrastructure.Repositories.Users
             _context = context;
         }
 
-        public string CreateCode(InvitationCodeEntity invitationCode)
+        public async Task<string> CreateCode(InvitationCodeEntity invitationCode)
         {
             _context.InvitationCodes.Add(invitationCode);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
             return invitationCode.Code;
         }
 
-        public InvitationCodeEntity? GetByCode(string code)
+        public async Task<InvitationCodeEntity?> GetByCode(string code)
         {
-            return _context.InvitationCodes
-                .FirstOrDefault(i => i.Code == code);
+            return await Task.FromResult(_context.InvitationCodes
+                .FirstOrDefault(i => i.Code == code));
         }
 
-        public void MarkAsUsed(InvitationCodeEntity invitationCode)
+        public async Task MarkAsUsed(InvitationCodeEntity invitationCode)
         {
             invitationCode.IsUsed = true;
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
     }
 }

@@ -16,6 +16,6 @@ namespace Domain.Ports
         Task<UserEntity?> GetUserById(int userId);
         Task<(bool emailExists, bool phoneExists)> ExistsDuplicate(string email, string phone);
         Task<UserEntity?> Login(string identificador, string password);
-        int? GetBusinessIdByUserId(int userId);
+        Task<int?> GetBusinessIdByUserId(int userId);
     }
 }

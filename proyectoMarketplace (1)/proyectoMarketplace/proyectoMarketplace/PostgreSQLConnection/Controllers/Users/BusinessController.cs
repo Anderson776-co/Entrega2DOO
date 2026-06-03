@@ -12,9 +12,11 @@ namespace APIDazma.Controllers.Users
     public class BusinessController : ControllerBase
     {
         private readonly CreateBusinessUseCase _createBusinessUseCase;
-        public BusinessController(CreateBusinessUseCase createBusinessUseCase)
+        private readonly GetBusinessInfoUseCase _getBusinessInfoUseCase;
+        public BusinessController(CreateBusinessUseCase createBusinessUseCase, GetBusinessInfoUseCase getBusinessInfoUseCase)
         {
             _createBusinessUseCase = createBusinessUseCase;
+            _getBusinessInfoUseCase = getBusinessInfoUseCase;
         }
 
         [HttpPost("create")]
@@ -30,6 +32,21 @@ namespace APIDazma.Controllers.Users
             var business = await _createBusinessUseCase.CreateBusiness(dto, int.Parse(authenticatedUserId));
             return Created("", new { message = "Business created successfully" });
             
+        }
+
+        [HttpGet("get")]
+        [Authorize(Roles = "StoreAdmin")]
+        public async Task<IActionResult> GetBusiness()
+        {
+            var authenticatedUserId = User.Claims.FirstOrDefault(c => c.Type == "id")?.Value;
+
+            if (authenticatedUserId == null)
+            {
+                throw new UnauthorizedException("El usuario no esta autenticado");
+            }
+
+            var business = await _getBusinessInfoUseCase.GetBusinessInfo(int.Parse(authenticatedUserId));
+            return Ok(business);
         }
     }
 }

@@ -7,10 +7,12 @@ namespace Domain.Services.Users
     public class AuthService
     {
         private readonly IUserRepository _userRepository;
+        private readonly IRevokedTokenRepository _revokedTokenRepository;
 
-        public AuthService(IUserRepository userRepository)
+        public AuthService(IUserRepository userRepository, IRevokedTokenRepository revokedTokenRepository)
         {
             _userRepository = userRepository;
+            _revokedTokenRepository = revokedTokenRepository;
         }
         public async Task<UserEntity> Login(string identificador, string password)
         {
@@ -25,7 +27,7 @@ namespace Domain.Services.Users
 
         public async Task Logout(string jti, DateTime tokenExpiration)
         {
-            
+            await _revokedTokenRepository.RevokeAsync(jti, tokenExpiration);
         }
     }
 }

@@ -9,8 +9,8 @@ namespace Domain.Ports
 {
     public interface IInvitationCodeRepository
     {
-        public string CreateCode(InvitationCodeEntity invitationCode);
-        public InvitationCodeEntity? GetByCode(string code);
-        public void MarkAsUsed(InvitationCodeEntity invitationCode);
+        Task<string> CreateCode(InvitationCodeEntity invitationCode);
+        Task<InvitationCodeEntity?> GetByCode(string code);
+        Task MarkAsUsed(InvitationCodeEntity invitationCode);
     }
 }

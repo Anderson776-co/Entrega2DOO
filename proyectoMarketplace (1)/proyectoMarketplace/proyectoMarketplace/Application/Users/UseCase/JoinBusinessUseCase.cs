@@ -15,9 +15,9 @@ namespace Application.Users.UseCase
         {
             _invitationService = invitationService;
         }
-        public void JoinWithCode(string code, int userId)
+        public async Task JoinWithCode(string code, int userId)
         {
-            _invitationService.JoinBusinessAsync(code, userId);
+            await _invitationService.JoinBusiness(code, userId);
         }
     }
 }

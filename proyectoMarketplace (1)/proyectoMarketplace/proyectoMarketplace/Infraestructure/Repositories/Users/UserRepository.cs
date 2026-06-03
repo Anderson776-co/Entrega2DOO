@@ -59,12 +59,12 @@ namespace Infrastructure.Repositories.Users
             }
             return autenticatedUser;
         }
-        public int? GetBusinessIdByUserId(int userId)
+        public async Task<int?> GetBusinessIdByUserId(int userId)
         {
-            return _context.Users
+            return await _context.Users
                 .Where(u => u.Id == userId)
                 .Select(u => u.BusinessId)
-                .FirstOrDefault();
+                .FirstOrDefaultAsync();
         }
 
         public async Task<UserEntity> UpdateUser(UserEntity user)
