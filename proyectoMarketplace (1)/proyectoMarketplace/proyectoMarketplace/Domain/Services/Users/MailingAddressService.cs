@@ -15,20 +15,23 @@ namespace Domain.Services.Users
 
         public async Task<MailingAddressEntity> CreateAddress(MailingAddressEntity address)
         {
-            if (await _mailingAddressRepository.ExistsAddressById(address.UserId, address.Address))
-                throw new ValidationException("La dirección ya existe para este usuario.");
+            if (await _mailingAddressRepository.ExistsAddressById(address.UserId, address.Address, address.Id))
+                throw new ConflictException($"La dirección {address.Address} ya existe para este usuario.");
 
             return await _mailingAddressRepository.CreateAddress(address);
         }
 
         public async Task UpdateMailingAddress(int idAddress, MailingAddressEntity mailingAddress, int userId)
         {
-            var address = await _mailingAddressRepository.GetAddressById(idAddress, userId);
+            var address = await _mailingAddressRepository.GetAddressById(idAddress);
             if (address == null)
                 throw new NonFoundException("La dirección no existe.");
 
-            if (await _mailingAddressRepository.ExistsAddressById(address.UserId, mailingAddress.Address))
-                throw new ValidationException($"La dirección {mailingAddress.Address} ya existe para este usuario.");
+            if (address.UserId == userId)
+                throw new ForbiddenException("No tienes permiso para actualizar esta dirección.");
+
+            if (await _mailingAddressRepository.ExistsAddressById(address.UserId, mailingAddress.Address, address.Id))
+                throw new ConflictException($"La dirección {mailingAddress.Address} ya existe para este usuario.");
 
             address.Address = mailingAddress.Address;
             address.Department = mailingAddress.Department;
@@ -41,9 +44,11 @@ namespace Domain.Services.Users
 
         public async Task DeleteMailingAddress(int idAddress, int userId)
         {
-            var address = await _mailingAddressRepository.GetAddressById(idAddress, userId);
+            var address = await _mailingAddressRepository.GetAddressById(idAddress);
             if (address == null)   
                 throw new NonFoundException("La dirección no existe.");
+            if (address.UserId == userId)
+                throw new ForbiddenException("No tienes permiso para eliminar esta dirección.");
 
             await _mailingAddressRepository.DeleteAddress(address);
         }

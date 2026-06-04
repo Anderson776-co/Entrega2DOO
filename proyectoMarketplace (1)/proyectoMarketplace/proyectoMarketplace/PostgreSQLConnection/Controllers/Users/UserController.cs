@@ -16,15 +16,17 @@ namespace APIDazma.Controllers.Users
         private readonly GetPersonalInfoUseCase _getPersonalInfoUseCase;
         private readonly deleteUserAccountUseCase _deleteUserAccountUseCase;
         private readonly AuthUseCase _authUseCase;
+        private readonly LogoutUseCase _logoutUseCase;
 
 
-        public UserController(CreateUserUseCase createUserUseCase, UpdatePersonalInformationUseCase updatePersonalInformationUseCase, GetPersonalInfoUseCase getPersonalInfoUseCase, deleteUserAccountUseCase deleteUserAccountUseCase, AuthUseCase authUseCase)
+        public UserController(CreateUserUseCase createUserUseCase, UpdatePersonalInformationUseCase updatePersonalInformationUseCase, GetPersonalInfoUseCase getPersonalInfoUseCase, deleteUserAccountUseCase deleteUserAccountUseCase, AuthUseCase authUseCase, LogoutUseCase logoutUseCase)
         {
             _createUserUseCase = createUserUseCase;
             _UpdatePersonalInformationUseCase = updatePersonalInformationUseCase;
             _getPersonalInfoUseCase = getPersonalInfoUseCase;
             _deleteUserAccountUseCase = deleteUserAccountUseCase;
             _authUseCase = authUseCase;
+            _logoutUseCase = logoutUseCase;
         }
 
         [HttpPost("createuser")]
@@ -36,7 +38,7 @@ namespace APIDazma.Controllers.Users
 
         [Authorize]
         [HttpPut("updateuser")]
-        public async Task<IActionResult> UpdateUser(UpdatePersonalInfoDTO userDTO)
+        public async Task<IActionResult> UpdateUser([FromBody] UpdatePersonalInfoDTO userDTO)
         {
             var authenticatedUserId = User.Claims.FirstOrDefault(c => c.Type == "id")?.Value;
 
@@ -78,7 +80,7 @@ namespace APIDazma.Controllers.Users
             var token = Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last();
 
             if (token != null)
-                await _authUseCase.Logout(token);
+                await _logoutUseCase.Logout(token);
 
             await _deleteUserAccountUseCase.DeleteUserAccount(int.Parse(authenticatedUserId));
 

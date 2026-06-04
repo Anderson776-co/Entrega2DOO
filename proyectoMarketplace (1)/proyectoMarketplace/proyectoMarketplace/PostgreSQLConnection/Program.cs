@@ -19,6 +19,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddCors(o => o.AddDefaultPolicy(p => p.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
@@ -27,11 +28,13 @@ builder.Services.AddMemoryCache();
 
 // ===== Users =====
 builder.Services.AddScoped<AuthUseCase>();
+builder.Services.AddScoped<LogoutUseCase>();
 builder.Services.AddScoped<CreateUserUseCase>();
 builder.Services.AddScoped<UpdatePersonalInformationUseCase>();
 builder.Services.AddScoped<GetPersonalInfoUseCase>();
 builder.Services.AddScoped<deleteUserAccountUseCase>();
 builder.Services.AddScoped<CreateBusinessUseCase>();
+builder.Services.AddScoped<GetBusinessInfoUseCase>();
 builder.Services.AddScoped<CreateMailingAddressUseCase>();
 builder.Services.AddScoped<UpdateMailingAddressUseCase>();
 builder.Services.AddScoped<DeleteMailingAddressUseCase>();
@@ -89,6 +92,7 @@ builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultForbidScheme = JwtBearerDefaults.AuthenticationScheme;
 })
 .AddJwtBearer(options =>
 {
@@ -103,6 +107,27 @@ builder.Services.AddAuthentication(options =>
         {
             Console.WriteLine("Token válido para: " + context.Principal!.Identity!.Name);
             return Task.CompletedTask;
+        },
+        OnChallenge = async context =>
+        {
+            context.HandleResponse(); // evita la respuesta por defecto
+            context.Response.StatusCode = 401;
+            context.Response.ContentType = "application/json";
+            await context.Response.WriteAsync(JsonSerializer.Serialize(new
+            {
+                message = "No autenticado. Llave de acceso inválida o expirada.",
+                statusCode = 401
+            }));
+        },
+        OnForbidden = async context =>
+        {
+            context.Response.StatusCode = 403;
+            context.Response.ContentType = "application/json";
+            await context.Response.WriteAsync(JsonSerializer.Serialize(new
+            {
+                message = "No tienes permisos para acceder a este recurso.",
+                statusCode = 403
+            }));
         }
     };
 
@@ -124,6 +149,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Dazma Marketplace API", Version = "v1" });
+
+    c.MapType<string>(() => new Microsoft.OpenApi.Models.OpenApiSchema 
+    {
+        Type = "string",
+        Example = new Microsoft.OpenApi.Any.OpenApiString("")
+    });
 
     c.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
     {

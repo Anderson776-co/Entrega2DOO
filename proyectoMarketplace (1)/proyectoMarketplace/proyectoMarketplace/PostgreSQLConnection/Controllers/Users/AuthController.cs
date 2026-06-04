@@ -2,6 +2,7 @@ using Application.Users.DTOs;
 using Application.Users.UseCase;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Org.BouncyCastle.Utilities.Zlib;
 
 namespace APIDazma.Controllers.Users
 {
@@ -10,10 +11,12 @@ namespace APIDazma.Controllers.Users
     public class AuthController : ControllerBase
     {
         private readonly AuthUseCase _authUseCase;
+        private readonly LogoutUseCase _logoutUseCase;
 
-        public AuthController(AuthUseCase authUseCase)
+        public AuthController(AuthUseCase authUseCase, LogoutUseCase logoutUseCase)
         {
             _authUseCase = authUseCase;
+            _logoutUseCase = logoutUseCase;
         }
 
         [HttpPost("login")]
@@ -34,8 +37,8 @@ namespace APIDazma.Controllers.Users
                 return BadRequest(new { message = "Token no encontrado" });
             }
 
-            await _authUseCase.Logout(token);
-            return Ok(new { message = "Logout successful. Please delete the token on the client side." });
+            await _logoutUseCase.Logout(token);
+            return Ok(new { message = "Cierre de sesión exitoso. Por favor, elimine el token del lado del cliente." });
         }
     }
 }

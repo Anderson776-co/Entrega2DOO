@@ -79,29 +79,10 @@
         }
       }
     },
-    "/api/Invitation/generate/{nit}/{roleId}": {
-      "post": {
+    "/api/Business/get": {
+      "get": {
         "tags": [
-          "Invitation"
-        ],
-        "parameters": [
-          {
-            "name": "nit",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "roleId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
+          "Business"
         ],
         "responses": {
           "200": {
@@ -110,30 +91,34 @@
         }
       }
     },
-    "/api/Invitation/join": {
+    "/api/Invitation/generate": {
       "post": {
         "tags": [
           "Invitation"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/JoinRequestDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/JoinRequestDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/JoinRequestDTO"
-              }
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Invitation/join/{code}": {
+      "post": {
+        "tags": [
+          "Invitation"
+        ],
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": ""
             }
           }
-        },
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -226,14 +211,14 @@
         }
       }
     },
-    "/api/MailingAddress/DeleteAddress/{id}": {
+    "/api/MailingAddress/DeleteAddress/{idAddress}": {
       "delete": {
         "tags": [
           "MailingAddress"
         ],
         "parameters": [
           {
-            "name": "id",
+            "name": "idAddress",
             "in": "path",
             "required": true,
             "schema": {
@@ -313,7 +298,8 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "example": ""
             }
           },
           {
@@ -376,13 +362,16 @@
                 "type": "object",
                 "properties": {
                   "Title": {
-                    "type": "string"
+                    "type": "string",
+                    "example": ""
                   },
                   "ProductName": {
-                    "type": "string"
+                    "type": "string",
+                    "example": ""
                   },
                   "Description": {
-                    "type": "string"
+                    "type": "string",
+                    "example": ""
                   },
                   "Price": {
                     "type": "number",
@@ -393,7 +382,8 @@
                     "format": "int32"
                   },
                   "Category": {
-                    "type": "string"
+                    "type": "string",
+                    "example": ""
                   },
                   "image": {
                     "type": "string",
@@ -444,7 +434,8 @@
             "name": "name",
             "in": "query",
             "schema": {
-              "type": "string"
+              "type": "string",
+              "example": ""
             }
           },
           {
@@ -467,7 +458,8 @@
             "name": "category",
             "in": "query",
             "schema": {
-              "type": "string"
+              "type": "string",
+              "example": ""
             }
           }
         ],
@@ -532,13 +524,16 @@
                 "type": "object",
                 "properties": {
                   "Title": {
-                    "type": "string"
+                    "type": "string",
+                    "example": ""
                   },
                   "ProductName": {
-                    "type": "string"
+                    "type": "string",
+                    "example": ""
                   },
                   "Description": {
-                    "type": "string"
+                    "type": "string",
+                    "example": ""
                   },
                   "Price": {
                     "type": "number",
@@ -549,7 +544,8 @@
                     "format": "int32"
                   },
                   "Category": {
-                    "type": "string"
+                    "type": "string",
+                    "example": ""
                   },
                   "image": {
                     "type": "string",
@@ -705,37 +701,28 @@
         "properties": {
           "name": {
             "type": "string",
-            "nullable": true
+            "nullable": true,
+            "example": ""
           },
           "nit": {
             "type": "string",
-            "nullable": true
+            "nullable": true,
+            "example": ""
           },
           "address": {
             "type": "string",
-            "nullable": true
+            "nullable": true,
+            "example": ""
           },
           "phone": {
             "type": "string",
-            "nullable": true
+            "nullable": true,
+            "example": ""
           },
           "email": {
             "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "JoinRequestDTO": {
-        "type": "object",
-        "properties": {
-          "code": {
-            "type": "string",
-            "nullable": true
-          },
-          "userId": {
-            "type": "integer",
-            "format": "int32"
+            "nullable": true,
+            "example": ""
           }
         },
         "additionalProperties": false
@@ -749,11 +736,13 @@
         "properties": {
           "identificador": {
             "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "example": ""
           },
           "password": {
             "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "example": ""
           }
         },
         "additionalProperties": false
@@ -772,35 +761,43 @@
         "properties": {
           "address": {
             "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "example": ""
           },
           "department": {
             "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "example": ""
           },
           "city": {
             "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "example": ""
           },
           "neighborhood": {
             "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "example": ""
           },
           "complement": {
             "type": "string",
-            "nullable": true
+            "nullable": true,
+            "example": ""
           },
           "contactPersonName": {
             "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "example": ""
           },
           "contactPersonLastName": {
             "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "example": ""
           },
           "phone": {
             "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "example": ""
           }
         },
         "additionalProperties": false
@@ -815,23 +812,28 @@
         "properties": {
           "names": {
             "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "example": ""
           },
           "lastNames": {
             "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "example": ""
           },
           "phone": {
             "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "example": ""
           },
           "password": {
             "type": "string",
-            "nullable": true
+            "nullable": true,
+            "example": ""
           },
           "confirmPassword": {
             "type": "string",
-            "nullable": true
+            "nullable": true,
+            "example": ""
           }
         },
         "additionalProperties": false
@@ -849,27 +851,33 @@
         "properties": {
           "name": {
             "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "example": ""
           },
           "lastName": {
             "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "example": ""
           },
           "phone": {
             "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "example": ""
           },
           "email": {
             "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "example": ""
           },
           "password": {
             "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "example": ""
           },
           "confirmPassword": {
             "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "example": ""
           }
         },
         "additionalProperties": false

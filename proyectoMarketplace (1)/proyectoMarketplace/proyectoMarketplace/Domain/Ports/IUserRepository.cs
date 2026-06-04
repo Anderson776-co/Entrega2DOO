@@ -10,6 +10,8 @@ namespace Domain.Ports
     public interface IUserRepository
     {
         Task<UserEntity> CreateUser(UserEntity user);
+
+        Task<string> ChangePassword(string password);
         void AssignBusiness(UserEntity user);
         Task<UserEntity> UpdateUser(UserEntity user);
         Task DeleteUser(UserEntity user);

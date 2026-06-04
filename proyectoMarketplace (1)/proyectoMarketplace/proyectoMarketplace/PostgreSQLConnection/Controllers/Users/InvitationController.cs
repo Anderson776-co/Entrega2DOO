@@ -47,8 +47,8 @@ namespace APIDazma.Controllers.Users
                 throw new UnauthorizedException("El usuario no esta autenticado");
             }
 
-            await _joinBusinessUseCase.JoinWithCode(code, int.Parse(authenticatedUserId));
-            return Ok(new { message = "Te has unido exitosamente a la empresa." });
+            var newToken = await _joinBusinessUseCase.JoinWithCode(code, int.Parse(authenticatedUserId));
+            return Ok(new { message = "Te has unido exitosamente a la empresa.", token = newToken });
             
         }
     }

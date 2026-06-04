@@ -42,37 +42,36 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "APIDazma.Controllers.Users.BusinessController",
+    "Method": "GetBusiness",
+    "RelativePath": "api/Business/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "APIDazma.Controllers.Users.InvitationController",
     "Method": "GenerateCode",
-    "RelativePath": "api/Invitation/generate/{nit}/{roleId}",
+    "RelativePath": "api/Invitation/generate",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "nit",
-        "Type": "System.String",
-        "IsRequired": true
-      },
-      {
-        "Name": "roleId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
     "ContainingType": "APIDazma.Controllers.Users.InvitationController",
     "Method": "JoinWithCode",
-    "RelativePath": "api/Invitation/join",
+    "RelativePath": "api/Invitation/join/{code}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
-        "Type": "Application.Users.DTOs.JoinRequestDTO",
+        "Name": "code",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -97,13 +96,13 @@
   {
     "ContainingType": "APIDazma.Controllers.Users.MailingAddressController",
     "Method": "DeleteMailingAddress",
-    "RelativePath": "api/MailingAddress/DeleteAddress/{id}",
+    "RelativePath": "api/MailingAddress/DeleteAddress/{idAddress}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "idAddress",
         "Type": "System.Int32",
         "IsRequired": true
       }
@@ -112,7 +111,7 @@
   },
   {
     "ContainingType": "APIDazma.Controllers.Users.MailingAddressController",
-    "Method": "GetShoppingAddresses",
+    "Method": "GetMailingAddresses",
     "RelativePath": "api/MailingAddress/GetUserAddresses",
     "HttpMethod": "GET",
     "IsController": true,

@@ -1,6 +1,7 @@
 using Domain.Exceptions;
 using Domain.Ports;
 using Domain.Entities.Users;
+using Domain.Models;
 
 namespace Domain.Services.Users
 {
@@ -21,10 +22,10 @@ namespace Domain.Services.Users
             var user = await _userRepository.GetUserById(userId);
 
             if (user == null)
-                throw new NonFoundException("Su usuario no fue encontrado");
+                throw new NonFoundException("El usuario no fue encontrado.");
 
             if (user.BusinessId is null)
-                throw new ValidationException("Debes crear una empresa antes de generar un código de invitación");
+                throw new ForbiddenException("Debes crear una empresa antes de generar un código de invitación");
 
             var code = "DAZMA-" + GenerateRandomCode();
 
@@ -32,8 +33,8 @@ namespace Domain.Services.Users
             {
                 Code = code,
                 BusinessId = user.BusinessId.Value,
-                RoleId = user.RoleId,
-                ExpiresAt = DateTime.Now.AddHours(24),
+                RoleId = 2,
+                ExpiresAt = DateTime.UtcNow.AddHours(24),
                 IsUsed = false
             };
 
@@ -57,17 +58,20 @@ namespace Domain.Services.Users
                 throw new NonFoundException("Codigo de invitacion no encontrado");
 
             if (invitationCode.IsUsed)
-                throw new ValidationException("El codigo de invitacion ya ha sido utilizado");
+                throw new ConflictException("El codigo de invitacion ya ha sido utilizado");
 
             if (invitationCode.ExpiresAt < DateTime.Now)
                 throw new ValidationException("El codigo de invitacion ha expirado");
 
             var user = await _userRepository.GetUserById(userId);
             if (user == null)
-                throw new NonFoundException("User not found");
+                throw new NonFoundException("El usuario no fue encontrado.");
 
             user.BusinessId = invitationCode.BusinessId;
             user.RoleId = invitationCode.RoleId;
+            user.RegisterType = RegisterType.Business;
+
+            await _userRepository.UpdateUser(user);
 
             _userRepository.AssignBusiness(user);
             await _invitationRepository.MarkAsUsed(invitationCode);

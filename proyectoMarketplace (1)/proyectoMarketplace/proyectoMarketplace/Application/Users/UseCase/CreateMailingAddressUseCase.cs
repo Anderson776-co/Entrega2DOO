@@ -23,7 +23,7 @@ namespace Application.Users.UseCase
             if (!Validations.EsDepartamentoValido(address.Department))
                 errors.Add("El departamento no es válido. Solo letras y espacios son permitidos.");
             if (!Validations.EsCiudadValida(address.City))
-                errors.Add("La ciudad no es válida. Solo letras y espacios son permitidos.");
+                errors.Add("La ciudad no es válida. Solo letras, números y espacios son permitidos.");
             if (!Validations.EsBarrioValido(address.Neighborhood))
                 errors.Add("El barrio no es válido. Solo letras, números y espacios son permitidos.");
             if (!Validations.EsTelefonoValido(address.Phone))
@@ -31,7 +31,7 @@ namespace Application.Users.UseCase
             if (!String.IsNullOrEmpty(address.Complement))
             {
                 if (!Validations.EsComplementoValido(address.Complement))
-                    errors.Add("El complemento no es válido.");
+                    errors.Add("El complemento no es válido. Solo letras, números y espacios son permitidos.");
             }
             if (!Validations.NombreValido(address.ContactPersonName, address.ContactPersonLastName))
                 errors.Add("El nombre o apellido del contacto no son válidos. Solo letras y espacios son permitidos.");

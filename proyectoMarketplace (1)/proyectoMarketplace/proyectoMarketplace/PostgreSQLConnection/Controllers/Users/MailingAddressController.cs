@@ -35,12 +35,12 @@ namespace APIDazma.Controllers.Users
                 throw new UnauthorizedException("El usuario no esta autenticado");
             }
 
-            var shoppingAddress =await _createMailingAddressUse.CreateMailingAddress(dto, int.Parse(authenticatedUserId));
-            return Created("", new { message = "Shopping address created successfully"});
+            var mailingAddress = await _createMailingAddressUse.CreateMailingAddress(dto, int.Parse(authenticatedUserId));
+            return Created("", new { message = "Dirección de envío creada exitosamente" });
         }
 
         [HttpGet("GetUserAddresses")]
-        public async Task<IActionResult> GetShoppingAddresses()
+        public async Task<IActionResult> GetMailingAddresses()
         {
             var authenticatedUserId = User.Claims.FirstOrDefault(c => c.Type == "id")?.Value;
             if (authenticatedUserId == null)
@@ -65,8 +65,8 @@ namespace APIDazma.Controllers.Users
             return Ok(new { message = "La dirección de envío ha sido actualizada exitosamente" });
         }
 
-        [HttpDelete("DeleteAddress/{id}")]
-        public async Task<IActionResult> DeleteMailingAddress(int id)
+        [HttpDelete("DeleteAddress/{idAddress}")]
+        public async Task<IActionResult> DeleteMailingAddress(int idAddress)
         {
             var authenticatedUserId = User.Claims.FirstOrDefault(c => c.Type == "id")?.Value;
 
@@ -75,7 +75,7 @@ namespace APIDazma.Controllers.Users
                 throw new UnauthorizedException("El usuario no esta autenticado");
             }
 
-            await _deleteMailingAddressUse.DeleteMailingAddress(id, int.Parse(authenticatedUserId));
+            await _deleteMailingAddressUse.DeleteMailingAddress(idAddress, int.Parse(authenticatedUserId));
             return Ok(new { message = "La dirección de envío ha sido eliminada exitosamente" });
         }
     }

@@ -16,11 +16,10 @@ namespace Domain.Services.Users
         }
         public async Task<UserEntity> Login(string identificador, string password)
         {
-
             var user = await _userRepository.Login(identificador, password);
 
             if (user == null)
-                throw new UnauthorizedException("Invalid credentials");
+                throw new UnauthorizedException("Credenciales incorrectas, favor revisar su email y contraseña");
 
             return user;
         }

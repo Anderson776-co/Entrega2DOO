@@ -20,7 +20,7 @@ namespace Application.Users.UseCase
             var errors = new List<string>();
 
             if (!Validations.NombreValido(user.Name, user.LastName))
-              errors.Add("Formato de nombre o apellido inválido. Solo se permiten letras.");
+              errors.Add("Formato de nombre o apellido inválido. Solo se permiten letras y espacios.");
 
             if (!Validations.EsCorreo(user.Email))
                 errors.Add("El correo electrónico no es válido. Use un formato adecuado, por ejemplo: 'empresa@dominio.com', solo se permiten letras, números, puntos, guiones bajos y guiones antes del @.");

@@ -18,8 +18,8 @@ namespace Application.Users.DTO_s
 
         [Required(ErrorMessage = "El teléfono es obligatorio")]
         public required string Phone { get; set; }
-        public string? Password { get; set; }
-        public string? ConfirmPassword { get; set; }
+        public string? Password { get; set; } = string.Empty;
+        public string? ConfirmPassword { get; set; } = string.Empty;
 
         public static UpdatePersonalInfoDTO FromEntityToDTO(UserEntity entity) 
         { 

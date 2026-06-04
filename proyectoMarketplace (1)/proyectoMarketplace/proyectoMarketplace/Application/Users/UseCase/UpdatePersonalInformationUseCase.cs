@@ -24,7 +24,7 @@ namespace Application.Users.UseCase
         {
             var errors = new List<string>();
             if (!Validations.NombreValido(user.Names, user.LastNames))
-                errors.Add("Formato de nombre o apellido inválido. Solo se permiten letras.");
+                errors.Add("Formato de nombre o apellido inválido. Solo se permiten letras y espacios.");
 
             if (!Validations.EsTelefonoValido(user.Phone))
                 errors.Add("Número de teléfono inválido. Debe contener solo dígitos y tener una longitud de 10 caracteres.");

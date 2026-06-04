@@ -1,11 +1,6 @@
-using Application.Users.DTOs;
+using Application.Users.DTO_s.ResponseDTO;
 using Domain.Entities.Users;
 using Domain.Services.Users;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.Users.UseCase
 {
@@ -17,24 +12,14 @@ namespace Application.Users.UseCase
         {
             _mailingAddressService = mailingAddressService;
         }   
-        public async Task<List<MailingAddressDTO>> GetMailingAddresses(int idUser)
+        public async Task<List<AddressResponseDTO>> GetMailingAddresses(int idUser)
         {
             List<MailingAddressEntity> mailingAddressEntities =await _mailingAddressService.GetMailingAddresses(idUser);
-            List<MailingAddressDTO> mailingAddressDTOs = new List<MailingAddressDTO>();
+            List<AddressResponseDTO> mailingAddressDTOs = new List<AddressResponseDTO>();
 
             foreach (var entity in mailingAddressEntities)
             {
-                MailingAddressDTO dto = new MailingAddressDTO
-                {
-                    Address = entity.Address,
-                    Department = entity.Department,
-                    City = entity.City,
-                    Neighborhood = entity.Neighborhood,
-                    Complement = entity.Complement,
-                    ContactPersonName = entity.ContactPersonName,
-                    ContactPersonLastName = entity.ContactPersonLastName,
-                    Phone = entity.Phone
-                };
+                AddressResponseDTO dto = AddressResponseDTO.FromEntityToDTO(entity);
                 mailingAddressDTOs.Add(dto);
             }
 

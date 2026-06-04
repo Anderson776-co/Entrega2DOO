@@ -20,7 +20,7 @@ namespace APIDazma.Controllers.Users
         }
 
         [HttpPost("create")]
-        public async Task<IActionResult> CreateBusiness(BusinessDTO dto)
+        public async Task<IActionResult> CreateBusiness([FromBody] BusinessDTO dto)
         {
             var authenticatedUserId = User.Claims.FirstOrDefault(c => c.Type == "id")?.Value;
 
@@ -29,8 +29,8 @@ namespace APIDazma.Controllers.Users
                 throw new UnauthorizedException("El usuario no esta autenticado");
             }
 
-            var business = await _createBusinessUseCase.CreateBusiness(dto, int.Parse(authenticatedUserId));
-            return Created("", new { message = "Business created successfully" });
+            var (business, newToken) = await _createBusinessUseCase.CreateBusiness(dto, int.Parse(authenticatedUserId));
+            return Created("", new { message = "Empresa creada exitosamente", token = newToken });
             
         }
 

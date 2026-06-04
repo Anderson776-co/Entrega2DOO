@@ -1,9 +1,7 @@
 using Domain.Entities.Users;
-using Domain.Exceptions;
 using Domain.Ports;
 using Infrastructure.Contexts;
 using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations;
 
 namespace Infrastructure.Repositories.Users
 {
@@ -51,9 +49,9 @@ namespace Infrastructure.Repositories.Users
                 return null;
             }
 
-            var passwordValid = Task.Run(() => BCrypt.Net.BCrypt.Verify(password, autenticatedUser.Password));
+            var passwordValid = await Task.Run(() => BCrypt.Net.BCrypt.Verify(password, autenticatedUser.Password));
 
-            if ( passwordValid == null)
+            if (!passwordValid)
             {
                 return null;
             }
@@ -83,7 +81,12 @@ namespace Infrastructure.Repositories.Users
 
         public Task<UserEntity?> GetUserById(int userId)
         {
-            return _context.Users.FirstOrDefaultAsync(u => u.Id == userId);
+            return _context.Users.Include(u => u.Role).FirstOrDefaultAsync(u => u.Id == userId);
+        }
+
+        public Task<string> ChangePassword(string password)
+        {
+           return Task.FromResult(BCrypt.Net.BCrypt.HashPassword(password));
         }
     } 
 }

@@ -21,6 +21,8 @@ namespace APIDazma.Infrastructure.Exceptions
             {
                 UnauthorizedException ex => (ex.StatusCode, "Unauthorized"),
                 ValidationException ex => (ex.StatusCode, "Bad Request"),
+                ForbiddenException ex => (ex.StatusCode, "Forbidden"),
+                ConflictException ex => (ex.StatusCode, "Conflict"),
                 InternalServerException ex => (ex.StatusCode, "Internal Server Error"),
                 AppException ex => (ex.StatusCode, "App Error"),
                 _ => (500, "Internal Server Error")

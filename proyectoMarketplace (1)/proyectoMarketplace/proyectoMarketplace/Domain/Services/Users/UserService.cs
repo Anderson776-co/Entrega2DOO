@@ -16,11 +16,11 @@ namespace Domain.Services.Users
             var duplicate = await _userRepository.ExistsDuplicate(user.Email, user.Phone);
 
             var errors = new List<string>();
-            if (duplicate.emailExists) errors.Add("Email already registered.");
-            if (duplicate.phoneExists) errors.Add("Phone already registered.");
+            if (duplicate.emailExists) errors.Add($"El correo {user.Email} ya está registrado.");
+            if (duplicate.phoneExists) errors.Add($"El teléfono {user.Phone} ya está registrado.");
 
             if (errors.Count > 0)
-                throw new ValidationException(string.Join(" | ", errors));
+                throw new ConflictException(string.Join(" | ", errors));
 
             user.RoleId = 3;
             user.IsActive = true;
@@ -28,9 +28,9 @@ namespace Domain.Services.Users
             return await _userRepository.CreateUser(user);
         }
 
-        public async Task<UserEntity> UpdateUser(int id, string names, string lastNames, string phone, string? password)
+        public async Task<UserEntity> UpdateUser(int idUser, string names, string lastNames, string phone, string? password)
         {
-            var existingUser = await _userRepository.GetUserById(id);
+            var existingUser = await _userRepository.GetUserById(idUser);
             if (existingUser == null)
                 throw new NonFoundException("Usuario no encontrado");
 
@@ -39,7 +39,7 @@ namespace Domain.Services.Users
             existingUser.Phone = phone;
 
             if (!string.IsNullOrEmpty(password))
-                existingUser.Password = password;
+                existingUser.Password = await _userRepository.ChangePassword(password);
 
             return await _userRepository.UpdateUser(existingUser);
         }

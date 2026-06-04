@@ -14,9 +14,9 @@ namespace Infrastructure.Repositories.Users
             _context = context;
         }
 
-        public async Task<bool> ExistsAddressById(int idUser, string address)
+        public async Task<bool> ExistsAddressById(int idUser, string address, int idAddress)
         {
-            return await Task.FromResult(_context.MailingAddresses.Any(a => a.UserId == idUser && a.Address == address.Replace(" ", "")));
+            return await Task.FromResult(_context.MailingAddresses.Any(a => a.UserId == idUser && a.Address == address.Replace(" ", "") && a.Id != idAddress));
         }
 
         public async Task<bool> AddressExistsById(int idUser, int idAddress)
@@ -36,9 +36,9 @@ namespace Infrastructure.Repositories.Users
             return await Task.FromResult(_context.MailingAddresses.Where(a => a.UserId == idUser).ToList());
         }
 
-        public Task<MailingAddressEntity?> GetAddressById(int idAddress, int userId)
+        public Task<MailingAddressEntity?> GetAddressById(int idAddress)
         {
-            return  _context.MailingAddresses.FirstOrDefaultAsync(a => a.Id == idAddress && a.UserId == userId);
+            return  _context.MailingAddresses.FirstOrDefaultAsync(a => a.Id == idAddress);
         }
 
         public async Task UpdateAddress(MailingAddressEntity address)
