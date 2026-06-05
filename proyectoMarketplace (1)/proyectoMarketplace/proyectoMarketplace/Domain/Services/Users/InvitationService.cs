@@ -71,7 +71,10 @@ namespace Domain.Services.Users
             user.RoleId = invitationCode.RoleId;
             user.RegisterType = RegisterType.Business;
 
+            invitationCode.UserId = user.Id;
+
             await _userRepository.UpdateUser(user);
+            await _invitationRepository.UpdateInvitation(invitationCode);
 
             _userRepository.AssignBusiness(user);
             await _invitationRepository.MarkAsUsed(invitationCode);

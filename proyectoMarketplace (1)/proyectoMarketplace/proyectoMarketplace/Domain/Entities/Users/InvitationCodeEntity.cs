@@ -10,6 +10,8 @@ namespace Domain.Entities.Users
         public BusinessEntity Business { get; set; } = null;
         public int RoleId { get; set; }
         public RoleEntity Role { get; set; } = null;
+        public int? UserId { get; set; }
+        public UserEntity User { get; set; } = null;
         public DateTime ExpiresAt { get; set; }
         public bool IsUsed { get; set; } = false;
     }

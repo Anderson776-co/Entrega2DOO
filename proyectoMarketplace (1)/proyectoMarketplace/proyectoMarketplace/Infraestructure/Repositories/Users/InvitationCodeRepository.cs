@@ -31,5 +31,11 @@ namespace Infrastructure.Repositories.Users
             invitationCode.IsUsed = true;
             await _context.SaveChangesAsync();
         }
+
+        public async Task UpdateInvitation(InvitationCodeEntity invitationCode)
+        {
+            _context.InvitationCodes.Update(invitationCode);
+            await _context.SaveChangesAsync();
+        }
     }
 }

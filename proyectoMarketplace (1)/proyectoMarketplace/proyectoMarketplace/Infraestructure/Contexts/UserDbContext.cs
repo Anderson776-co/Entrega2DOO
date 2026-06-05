@@ -25,10 +25,11 @@ namespace Infrastructure.Contexts
 
             modelBuilder.Entity<UserEntity>().HasOne(u => u.Role).WithMany(r => r.Users).HasForeignKey(u => u.RoleId);
             modelBuilder.Entity<UserEntity>().HasOne(u => u.Business).WithMany(e => e.Users).HasForeignKey(u => u.BusinessId).IsRequired(false);
-            modelBuilder.Entity<MailingAddressEntity>().HasOne<UserEntity>(u => u.User).WithMany(u => u.MailingAddresses).HasForeignKey(s => s.UserId);
+            modelBuilder.Entity<MailingAddressEntity>().HasOne(u => u.User).WithMany(u => u.MailingAddresses).HasForeignKey(s => s.UserId);
             modelBuilder.Entity<BusinessEntity>().HasOne<UserEntity>().WithMany().HasForeignKey(b => b.AdminUserId);
             modelBuilder.Entity<InvitationCodeEntity>().HasOne(i => i.Business).WithMany().HasForeignKey(i => i.BusinessId);
             modelBuilder.Entity<InvitationCodeEntity>().HasOne(i => i.Role).WithMany().HasForeignKey(i => i.RoleId);
+            modelBuilder.Entity<InvitationCodeEntity>().HasOne(i => i.User).WithMany().HasForeignKey(i => i.UserId).IsRequired(false);
             modelBuilder.Entity<RoleEntity>().HasData(
                 new RoleEntity { Id = 1, Name = "StoreAdmin" },
                 new RoleEntity { Id = 2, Name = "Assistant" },

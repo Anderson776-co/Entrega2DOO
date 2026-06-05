@@ -12,5 +12,6 @@ namespace Domain.Ports
         Task<string> CreateCode(InvitationCodeEntity invitationCode);
         Task<InvitationCodeEntity?> GetByCode(string code);
         Task MarkAsUsed(InvitationCodeEntity invitationCode);
+        Task UpdateInvitation(InvitationCodeEntity invitationCode);
     }
 }
